@@ -1,0 +1,310 @@
+LOCUS       NM_000520               2751 bp    mRNA    linear   PRI 24-SEP-2018
+DEFINITION  Homo sapiens hexosaminidase subunit alpha (HEXA), transcript
+            variant 2, mRNA.
+ACCESSION   NM_000520
+VERSION     NM_000520.5
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2751)
+  AUTHORS   Zalewska-Szajda B, Taranta-Janusz K, Chojnowska S, Waszkiewicz N,
+            Zwierz K and Wasilewska A.
+  TITLE     Pediatric reference data on activity of urinary
+            N-acetyl-beta-D-hexosaminidase and its isoenzymes
+  JOURNAL   Adv Med Sci 63 (1), 94-99 (2018)
+   PUBMED   28846871
+  REMARK    GeneRIF: Reported data present, for the first time, reference
+            values for urinary activities of HEX and its isoenzymes HEX A and
+            HEX B in children and adolescent.
+REFERENCE   2  (bases 1 to 2751)
+  AUTHORS   Dersh D, Iwamoto Y and Argon Y.
+  TITLE     Tay-Sachs disease mutations in HEXA target the alpha chain of
+            hexosaminidase A to endoplasmic reticulum-associated degradation
+  JOURNAL   Mol. Biol. Cell 27 (24), 3813-3827 (2016)
+   PUBMED   27682588
+  REMARK    GeneRIF: The alpha mutants E482K and G269S are defective in
+            enzymatic activity, unprocessed by lysosomal proteases, and exhibit
+            altered folding pathways compared with wild-type alpha. E482K is
+            more severely misfolded than G269S, as observed by its aggregation
+            and inability to associate with the HexA beta chain. Importantly,
+            both mutants are retrotranslocated from the endoplasmic reticulum
+            to the cytosol and are degraded by the ...
+REFERENCE   3  (bases 1 to 2751)
+  AUTHORS   Pennybacker M, Liessem B, Moczall H, Tifft CJ, Sandhoff K and Proia
+            RL.
+  TITLE     Identification of domains in human beta-hexosaminidase that
+            determine substrate specificity
+  JOURNAL   J. Biol. Chem. 271 (29), 17377-17382 (1996)
+   PUBMED   8663217
+REFERENCE   4  (bases 1 to 2751)
+  AUTHORS   Kaback,M.M. and Desnick,R.J.
+  TITLE     Hexosaminidase A Deficiency
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301397
+REFERENCE   5  (bases 1 to 2751)
+  AUTHORS   O'Dowd BF, Cumming DA, Gravel RA and Mahuran D.
+  TITLE     Oligosaccharide structure and amino acid sequence of the major
+            glycopeptides of mature human beta-hexosaminidase
+  JOURNAL   Biochemistry 27 (14), 5216-5226 (1988)
+   PUBMED   2971395
+REFERENCE   6  (bases 1 to 2751)
+  AUTHORS   Little LE, Lau MM, Quon DV, Fowler AV and Neufeld EF.
+  TITLE     Proteolytic processing of the alpha-chain of the lysosomal enzyme,
+            beta-hexosaminidase, in normal human fibroblasts
+  JOURNAL   J. Biol. Chem. 263 (9), 4288-4292 (1988)
+   PUBMED   2964446
+REFERENCE   7  (bases 1 to 2751)
+  AUTHORS   Proia,R.L. and Soravia,E.
+  TITLE     Organization of the gene encoding the human beta-hexosaminidase
+            alpha-chain
+  JOURNAL   J. Biol. Chem. 262 (12), 5677-5681 (1987)
+   PUBMED   2952641
+  REMARK    Erratum:[J Biol Chem 1987 Nov 5;262(31):15322]
+REFERENCE   8  (bases 1 to 2751)
+  AUTHORS   Myerowitz,R., Piekarz,R., Neufeld,E.F., Shows,T.B. and Suzuki,K.
+  TITLE     Human beta-hexosaminidase alpha chain: coding sequence and homology
+            with the beta chain
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 82 (23), 7830-7834 (1985)
+   PUBMED   2933746
+REFERENCE   9  (bases 1 to 2751)
+  AUTHORS   Beutler,E., Kuhl,W. and Comings,D.
+  TITLE     Hexosaminidase isozyme in type O Gm2 gangliosidosis
+            (Sandhoff-Jatzkewitz disease)
+  JOURNAL   Am. J. Hum. Genet. 27 (5), 628-638 (1975)
+   PUBMED   808963
+REFERENCE   10 (bases 1 to 2751)
+  AUTHORS   Gilbert,F., Kucherlapati,R., Creagan,R.P., Murnane,M.J.,
+            Darlington,G.J. and Ruddle,F.H.
+  TITLE     Tay-Sachs' and Sandhoff's diseases: the assignment of genes for
+            hexosaminidase A and B to individual human chromosomes
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 72 (1), 263-267 (1975)
+   PUBMED   1054503
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from CR627386.1, AC009690.17,
+            DC356933.1, BC018927.2 and BM668409.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Jan 14, 2016 this sequence version replaced NM_000520.4.
+            
+            Summary: This gene encodes a member of the glycosyl hydrolase 20
+            family of proteins. The encoded preproprotein is proteolytically
+            processed to generate the alpha subunit of the lysosomal enzyme
+            beta-hexosaminidase. This enzyme, together with the cofactor GM2
+            activator protein, catalyzes the degradation of the ganglioside
+            GM2, and other molecules containing terminal N-acetyl hexosamines.
+            Mutations in this gene lead to an accumulation of GM2 ganglioside
+            in neurons, the underlying cause of neurodegenerative disorders
+            termed the GM2 gangliosidoses, including Tay-Sachs disease
+            (GM2-gangliosidosis type I). Alternative splicing results in
+            multiple transcript variants, at least one of which encodes a
+            preproprotein that is proteolytically processed. [provided by
+            RefSeq, Jan 2016].
+            
+            Transcript Variant: This variant (2) uses an alternate in-frame
+            splice site in the 5' coding region compared to variant 1. The
+            encoded isoform (2) is shorter than isoform 1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: CR627386.1, SRR1803617.271482.1
+                                           [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-275               CR627386.1         1-275
+            276-294             AC009690.17        160091-160109       c
+            295-857             DC356933.1         1-563
+            858-1806            BC018927.2         368-1316
+            1807-1807           AC009690.17        130462-130462       c
+            1808-2018           BC018927.2         1318-1528
+            2019-2019           AC009690.17        129365-129365       c
+            2020-2283           BC018927.2         1530-1793
+            2284-2605           BM668409.1         147-468             c
+            2606-2680           AC009690.17        127399-127473       c
+            2681-2751           BM668409.1         1-71                c
+FEATURES             Location/Qualifiers
+     source          1..2751
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="15"
+                     /map="15q23"
+     gene            1..2751
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /note="hexosaminidase subunit alpha"
+                     /db_xref="GeneID:3073"
+                     /db_xref="HGNC:HGNC:4878"
+                     /db_xref="MIM:606869"
+     exon            1..754
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    415..417
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /note="upstream in-frame stop codon"
+     CDS             502..2091
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /EC_number="3.2.1.52"
+                     /note="isoform 2 preproprotein is encoded by transcript
+                     variant 2; beta-hexosaminidase subunit alpha;
+                     hexosaminidase subunit A; hexosaminidase A (alpha
+                     polypeptide); beta-N-acetylhexosaminidase subunit alpha;
+                     N-acetyl-beta-glucosaminidase subunit alpha"
+                     /codon_start=1
+                     /product="beta-hexosaminidase subunit alpha isoform 2
+                     preproprotein"
+                     /protein_id="NP_000511.2"
+                     /db_xref="CCDS:CCDS10243.1"
+                     /db_xref="GeneID:3073"
+                     /db_xref="HGNC:HGNC:4878"
+                     /db_xref="MIM:606869"
+                     /translation="MTSSRLWFSLLLAAAFAGRATALWPWPQNFQTSDQRYVLYPNNF
+                     QFQYDVSSAAQPGCSVLDEAFQRYRDLLFGSGSWPRPYLTGKRHTLEKNVLVVSVVTP
+                     GCNQLPTLESVENYTLTINDDQCLLLSETVWGALRGLETFSQLVWKSAEGTFFINKTE
+                     IEDFPRFPHRGLLLDTSRHYLPLSSILDTLDVMAYNKLNVFHWHLVDDPSFPYESFTF
+                     PELMRKGSYNPVTHIYTAQDVKEVIEYARLRGIRVLAEFDTPGHTLSWGPGIPGLLTP
+                     CYSGSEPSGTFGPVNPSLNNTYEFMSTFFLEVSSVFPDFYLHLGGDEVDFTCWKSNPE
+                     IQDFMRKKGFGEDFKQLESFYIQTLLDIVSSYGKGYVVWQEVFDNKVKIQPDTIIQVW
+                     REDIPVNYMKELELVTKAGFRALLSAPWYLNRISYGPDWKDFYIVEPLAFEGTPEQKA
+                     LVIGGEACMWGEYVDNTNLVPRLWPRAGAVAERLWSNKLTSDLTFAYERLSHFRCELL
+                     RRGVQAQPLNVGFCEQEFEQT"
+     sig_peptide     502..567
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     766..2088
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /product="Beta-hexosaminidase subunit alpha"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06865.2)"
+     misc_feature    1768..1773
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06865.2);
+                     Region: Critical for hydrolyzis GM2 gangliosides"
+     exon            755..847
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            848..913
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            914..960
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            961..1071
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1072..1173
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1174..1306
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1307..1487
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1488..1574
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1575..1647
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1648..1831
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1832..1922
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1923..2027
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2028..2733
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      2710..2715
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+     polyA_site      2733
+                     /gene="HEXA"
+                     /gene_synonym="TSD"
+ORIGIN      
+        1 tcacatcaca acgacttgtg gttttaatcc tccgtttttc tgcttctgaa gttacttcag
+       61 cctggcaagt cctttacctc cccgtaggcc tggcgagctg catcacaaca ttcaagattc
+      121 accctagagc catctgggaa actttcttct ccaggtcgcc ctgcgtcctc gcctccccac
+      181 cccgttcttc tcgagtcggg tgagctgtct agttccatca cggccggcac ggccgcaggg
+      241 gtggccggtt atttactgct ctactgggcc cgtgaacagt ctggcgagcc gagcagttgc
+      301 cgacgcccgg cacaatccgc tgcacgtagc aggagcctca ggtccaggcc ggaagtgaaa
+      361 gggcagggtg tgggtcctcc tggggtcgca ggcgcagagc cgcctctggt cacgtgattc
+      421 gccgataagt cacgggggcg ccgctcacct gaccagggtc tcacgtggcc agccccctcc
+      481 gagaggggag accagcgggc catgacaagc tccaggcttt ggttttcgct gctgctggcg
+      541 gcagcgttcg caggacgggc gacggccctc tggccctggc ctcagaactt ccaaacctcc
+      601 gaccagcgct acgtccttta cccgaacaac tttcaattcc agtacgatgt cagctcggcc
+      661 gcgcagcccg gctgctcagt cctcgacgag gccttccagc gctatcgtga cctgcttttc
+      721 ggttccgggt cttggccccg tccttacctc acagggaaac ggcatacact ggagaagaat
+      781 gtgttggttg tctctgtagt cacacctgga tgtaaccagc ttcctacttt ggagtcagtg
+      841 gagaattata ccctgaccat aaatgatgac cagtgtttac tcctctctga gactgtctgg
+      901 ggagctctcc gaggtctgga gacttttagc cagcttgttt ggaaatctgc tgagggcaca
+      961 ttctttatca acaagactga gattgaggac tttccccgct ttcctcaccg gggcttgctg
+     1021 ttggatacat ctcgccatta cctgccactc tctagcatcc tggacactct ggatgtcatg
+     1081 gcgtacaata aattgaacgt gttccactgg catctggtag atgatccttc cttcccatat
+     1141 gagagcttca cttttccaga gctcatgaga aaggggtcct acaaccctgt cacccacatc
+     1201 tacacagcac aggatgtgaa ggaggtcatt gaatacgcac ggctccgggg tatccgtgtg
+     1261 cttgcagagt ttgacactcc tggccacact ttgtcctggg gaccaggtat ccctggatta
+     1321 ctgactcctt gctactctgg gtctgagccc tctggcacct ttggaccagt gaatcccagt
+     1381 ctcaataata cctatgagtt catgagcaca ttcttcttag aagtcagctc tgtcttccca
+     1441 gatttttatc ttcatcttgg aggagatgag gttgatttca cctgctggaa gtccaaccca
+     1501 gagatccagg actttatgag gaagaaaggc ttcggtgagg acttcaagca gctggagtcc
+     1561 ttctacatcc agacgctgct ggacatcgtc tcttcttatg gcaagggcta tgtggtgtgg
+     1621 caggaggtgt ttgataataa agtaaagatt cagccagaca caatcataca ggtgtggcga
+     1681 gaggatattc cagtgaacta tatgaaggag ctggaactgg tcaccaaggc cggcttccgg
+     1741 gcccttctct ctgccccctg gtacctgaac cgtatatcct atggccctga ctggaaggat
+     1801 ttctacatag tggaacccct ggcatttgaa ggtacccctg agcagaaggc tctggtgatt
+     1861 ggtggagagg cttgtatgtg gggagaatat gtggacaaca caaacctggt ccccaggctc
+     1921 tggcccagag caggggctgt tgccgaaagg ctgtggagca acaagttgac atctgacctg
+     1981 acatttgcct atgaacgttt gtcacacttc cgctgtgaat tgctgaggcg aggtgtccag
+     2041 gcccaacccc tcaatgtagg cttctgtgag caggagtttg aacagacctg agccccaggc
+     2101 accgaggagg gtgctggctg taggtgaatg gtagtggagc caggcttcca ctgcatcctg
+     2161 gccaggggac ggagcccctt gccttcgtgc cccttgcctg cgtgcccctg tgcttggaga
+     2221 gaaaggggcc ggtgctggcg ctcgcattca ataaagagta atgtggcatt tttctataat
+     2281 aaacatggat tacctgtgtt taaaaaaaaa agtgtgaatg gcgttagggt aagggcacag
+     2341 ccaggctgga gtcagtgtct gcccctgagg tcttttaagt tgagggctgg gaatgaaacc
+     2401 tatagccttt gtgctgttct gccttgcctg tgagctatgt cactcccctc ccactcctga
+     2461 ccatattcca gacacctgcc ctaatcctca gcctgctcac ttcacttctg cattatatct
+     2521 ccaaggcgtt ggtatatgga aaaagatgta ggggcttgga ggtgttctgg acagtgggga
+     2581 gggctccaga cccaacctgg tcacagaaga gcctctcccc catgcatact catccacctc
+     2641 cctcccctag agctattctc ctttgggttt cttgctgctt caattttata caaccattat
+     2701 ttaaatatta ttaaacacat attgttctct aggaaaaaaa aaaaaaaaaa a
+//
+

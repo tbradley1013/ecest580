@@ -1,0 +1,281 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>ecest580_lab2_3_1</title><meta name="generator" content="MATLAB 9.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-01-24"><meta name="DC.source" content="ecest580_lab2_3_1.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Lab 2.3.1</a></li><li><a href="#2">Functions for the Lab</a></li></ul></div><h2 id="1">Lab 2.3.1</h2><pre class="codeinput">clc;close <span class="string">all</span>;clear;
+hbb = getgenbank(<span class="string">"NG_000007.3"</span>);
+
+<span class="comment">% 1. Make a function called threebasefreq_stft.m that can be called like this:</span>
+<span class="comment">% Threebaseperiodicity_vs_position = threebasefreq_stft (DNA_SEQUENCE, WINDOW_LENGTH, NFFT)</span>
+<span class="comment">% see "Functions for the Lab" section</span>
+
+<span class="comment">% 2. After you implement your function, test it on the whole 81,706 bp sequence of the HBB gene. Show</span>
+<span class="comment">% two plots of the results (similar to the figure in Hint 5 ) by using a) threebasefreq_stft(seq,100,1024)</span>
+<span class="comment">% and b) threebasefreq_stft(seq,1000,1024).</span>
+threebase_100 = threebasefreq_stft(hbb.Sequence, 100, 1024);
+threebase_1000 = threebasefreq_stft(hbb.Sequence, 1000, 1024);
+
+subplot(2, 1, 1)
+plot(threebase_100)
+title(<span class="string">"100 base moving window"</span>)
+
+subplot(2, 1, 2)
+plot(threebase_1000)
+title(<span class="string">"1000 base moving window"</span>)
+
+<span class="comment">% 3. Compare and contrast your results. Include all Matlab codes in your report.</span>
+<span class="comment">% Looking at the output from the two moving window periods shows some</span>
+<span class="comment">% differing results. The results using a 100 base moving window does not</span>
+<span class="comment">% show any clear pattern that centers around the expected exon positions</span>
+<span class="comment">% for this gene. However, the results from the 1000 base moving window</span>
+<span class="comment">% showed expected trends around the exon positions for the hbb gene. There</span>
+<span class="comment">% were a few positions that showed elevated</span>
+</pre><pre class="codeoutput">Warning: The record NG_000007.3 has been replaced by NG_000007.
+Returning record 28380636. 
+</pre><img vspace="5" hspace="5" src="ecest580_lab2_3_1_01.png" alt=""> <h2 id="2">Functions for the Lab</h2><p>This function corresponds to Lab 2.2.1 #3 and returns the coding and non-coding regions of the input sequence in a struct object with coding and non_coding character arrays</p><pre class="codeinput"><span class="keyword">function</span> output = get_coding(seq, indices)
+num_indices = length(indices);
+coding = repelem(<span class="string">"a"</span>, num_indices/2);
+non_coding = repelem(<span class="string">"a"</span>, (num_indices/2)-1);
+n_code = 1;
+n_non_code = 1;
+<span class="keyword">for</span> i = 1:num_indices-1
+    <span class="keyword">if</span> mod(i,2) == 1
+        coding(n_code) = seq(indices(i):indices(i+1));
+        n_code = n_code + 1;
+    <span class="keyword">else</span>
+        non_coding(n_non_code) = seq(indices(i)+1:indices(i+1)-1);
+        n_non_code = n_non_code+1;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+output.coding = coding;
+output.non_coding = non_coding;
+<span class="keyword">end</span>
+
+<span class="comment">% This function is for Lab 2.2.2 and 2.2.3</span>
+<span class="comment">% It takes the character string and looks at each of the bases and</span>
+<span class="comment">% determines if it matches the specified base</span>
+<span class="keyword">function</span> output = is_base(seq, base)
+seq_length = length(seq);
+out_binary = repelem(0, seq_length);
+
+<span class="keyword">for</span> i = 1:seq_length
+    <span class="keyword">if</span> seq(i) == base
+        out_binary(i) = 1;
+    <span class="keyword">else</span>
+        out_binary(i) = 0;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+output = out_binary;
+<span class="keyword">end</span>
+
+<span class="comment">% 1. Assume that the windows have full overlap meaning that each window of WINDOW_LENGTH</span>
+<span class="comment">% overlaps by WINDOW_LENGTH ? 1 data points:</span>
+<span class="comment">% 2. DNA_SEQUENCE is the DNA sequence of letters (before the binary indicator operation).</span>
+<span class="comment">% 3. NFFT is the number of points to take in the Fourier transform.</span>
+<span class="comment">% 4. The output will give you the magnitude of the N/3</span>
+<span class="comment">% point for each position (or consecutive window) in the sequence.</span>
+<span class="keyword">function</span> output = threebasefreq_stft(seq, window_length, nfft)
+<span class="comment">% calculate the sequence length</span>
+seq_length = length(seq);
+
+<span class="comment">% create a vector that is preallocated to the length of the expected output</span>
+fft_vec = repelem(0, seq_length-window_length);
+<span class="keyword">for</span> i = 1:seq_length-window_length
+    <span class="comment">% create a sub sequence</span>
+    sub_seq = seq(i:i+window_length);
+
+    <span class="comment">% calculate the u[base] for each of the bases</span>
+    sub_a = is_base(sub_seq, <span class="string">"a"</span>);
+    sub_t = is_base(sub_seq, <span class="string">"t"</span>);
+    sub_c = is_base(sub_seq, <span class="string">"c"</span>);
+    sub_g = is_base(sub_seq, <span class="string">"g"</span>);
+
+    <span class="comment">% calculate the fft</span>
+    sub_ft = abs(fft(sub_a, nfft)).^2 + abs(fft(sub_t, nfft)).^2 + <span class="keyword">...</span>
+abs(fft(sub_c, nfft)).^2 + abs(fft(sub_g, nfft)).^2;
+
+    <span class="comment">% find the nfft/3</span>
+    nfft_3 = sub_ft(round(nfft/3));
+    <span class="comment">% square the result to make the effect more clear and put it into the</span>
+    <span class="comment">% output vector</span>
+    fft_vec(i) = nfft_3^2;
+<span class="keyword">end</span>
+<span class="comment">% assign the output vector</span>
+output = fft_vec;
+<span class="keyword">end</span>
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Lab 2.3.1
+clc;close all;clear;
+hbb = getgenbank("NG_000007.3");
+
+% 1. Make a function called threebasefreq_stft.m that can be called like this:
+% Threebaseperiodicity_vs_position = threebasefreq_stft (DNA_SEQUENCE, WINDOW_LENGTH, NFFT)
+% see "Functions for the Lab" section
+
+% 2. After you implement your function, test it on the whole 81,706 bp sequence of the HBB gene. Show
+% two plots of the results (similar to the figure in Hint 5 ) by using a) threebasefreq_stft(seq,100,1024)
+% and b) threebasefreq_stft(seq,1000,1024).
+threebase_100 = threebasefreq_stft(hbb.Sequence, 100, 1024);
+threebase_1000 = threebasefreq_stft(hbb.Sequence, 1000, 1024);
+
+subplot(2, 1, 1)
+plot(threebase_100)
+title("100 base moving window")
+
+subplot(2, 1, 2)
+plot(threebase_1000)
+title("1000 base moving window")
+
+% 3. Compare and contrast your results. Include all Matlab codes in your report.
+% Looking at the output from the two moving window periods shows some
+% differing results. The results using a 100 base moving window does not
+% show any clear pattern that centers around the expected exon positions
+% for this gene. However, the results from the 1000 base moving window
+% showed expected trends around the exon positions for the hbb gene. There
+% were a few positions that showed elevated 
+
+%% Functions for the Lab
+% This function corresponds to Lab 2.2.1 #3 and returns the 
+% coding and non-coding regions of the input sequence in a struct object
+% with coding and non_coding character arrays
+function output = get_coding(seq, indices)
+num_indices = length(indices);
+coding = repelem("a", num_indices/2);
+non_coding = repelem("a", (num_indices/2)-1);
+n_code = 1;
+n_non_code = 1;
+for i = 1:num_indices-1
+    if mod(i,2) == 1
+        coding(n_code) = seq(indices(i):indices(i+1));
+        n_code = n_code + 1;
+    else 
+        non_coding(n_non_code) = seq(indices(i)+1:indices(i+1)-1);
+        n_non_code = n_non_code+1;
+    end
+end
+
+output.coding = coding;
+output.non_coding = non_coding;
+end
+
+% This function is for Lab 2.2.2 and 2.2.3
+% It takes the character string and looks at each of the bases and
+% determines if it matches the specified base
+function output = is_base(seq, base)
+seq_length = length(seq);
+out_binary = repelem(0, seq_length);
+
+for i = 1:seq_length
+    if seq(i) == base
+        out_binary(i) = 1;
+    else 
+        out_binary(i) = 0;
+    end
+end    
+output = out_binary;
+end
+
+% 1. Assume that the windows have full overlap meaning that each window of WINDOW_LENGTH
+% overlaps by WINDOW_LENGTH ? 1 data points:
+% 2. DNA_SEQUENCE is the DNA sequence of letters (before the binary indicator operation).
+% 3. NFFT is the number of points to take in the Fourier transform.
+% 4. The output will give you the magnitude of the N/3
+% point for each position (or consecutive window) in the sequence.
+function output = threebasefreq_stft(seq, window_length, nfft)
+% calculate the sequence length
+seq_length = length(seq);
+
+% create a vector that is preallocated to the length of the expected output
+fft_vec = repelem(0, seq_length-window_length);
+for i = 1:seq_length-window_length
+    % create a sub sequence
+    sub_seq = seq(i:i+window_length);
+    
+    % calculate the u[base] for each of the bases
+    sub_a = is_base(sub_seq, "a");
+    sub_t = is_base(sub_seq, "t");
+    sub_c = is_base(sub_seq, "c");
+    sub_g = is_base(sub_seq, "g");
+    
+    % calculate the fft
+    sub_ft = abs(fft(sub_a, nfft)).^2 + abs(fft(sub_t, nfft)).^2 + ...
+abs(fft(sub_c, nfft)).^2 + abs(fft(sub_g, nfft)).^2;
+    
+    % find the nfft/3
+    nfft_3 = sub_ft(round(nfft/3));
+    % square the result to make the effect more clear and put it into the
+    % output vector
+    fft_vec(i) = nfft_3^2;
+end
+% assign the output vector
+output = fft_vec;
+end
+
+##### SOURCE END #####
+--></body></html>
