@@ -26,37 +26,17 @@ for i = 1:temp_len
     
     prot_seq = revcode.(upper(prot));
     
-    [x, y] = meshgrid(possible_seqs, prot_seq);
-    pairs = [x(:) y(:)];
+    [x, y] = meshgrid(possible_seqs, 
     
-    temp_out = repelem("a", length(pairs));
-    for j = 1:length(pairs)
-      temp_out(j) = pairs(j, 1) + pairs(j, 2);
+    temp_seq = struct;
+    for j = 1:length(prot_seq)
+        idx = cell2sym(prot_seq(j));
+        temp_seq.(idx) = possible_seqs + prot_seq(j);
     end
-    possible_seqs = temp_out;
+    possible_seqs = [possible_seqs, struct2array(temp_seq)];
 end
-
-
 
 function output = rev_seq(seq)
-revcode = revgeneticcode();
-
-temp_len = length(seq);
-possible_seqs = [""];
-len_out = 1;
-for i = 1:temp_len
-    prot = seq(i);
-    
-    prot_seq = revcode.(upper(prot));
-    
-    [x, y] = meshgrid(possible_seqs, prot_seq);
-    pairs = [x(:) y(:)];
-    
-    temp_out = repelem("a", length(pairs));
-    for j = 1:length(pairs)
-      temp_out(j) = pairs(j, 1) + pairs(j, 2);
-    end
-    possible_seqs = temp_out;
-end
+  
 
 end
