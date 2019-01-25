@@ -16,26 +16,14 @@ seq_sub = seq(141:147);
 % revgeneticcode)? Write a function that returns the possible sequences. The input to
 % the function should be a string (amino acid sequence) and the output should be the
 % potential nucleotide sequences.
-revcode = revgeneticcode();
 
-temp_len = length(seq_sub);
-possible_seqs = [""];
-len_out = 1;
-for i = 1:temp_len
-    prot = seq_sub(i);
-    
-    prot_seq = revcode.(upper(prot));
-    
-    [x, y] = meshgrid(possible_seqs, prot_seq);
-    pairs = [x(:) y(:)];
-    
-    temp_out = repelem("a", length(pairs));
-    for j = 1:length(pairs)
-      temp_out(j) = pairs(j, 1) + pairs(j, 2);
-    end
-    possible_seqs = temp_out;
-end
+% See the function rev_seq at the bottom of the script
 
+% c)
+% Using the Matlab function from part b), calculate the number of sequences that could
+% give rise to the 7 amino acid sequence found in part a).
+sub_seq_code = rev_seq(seq_sub);
+length(sub_seq_code)
 
 
 function output = rev_seq(seq)
@@ -58,5 +46,5 @@ for i = 1:temp_len
     end
     possible_seqs = temp_out;
 end
-
+output = possible_seqs;
 end

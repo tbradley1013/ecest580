@@ -5,7 +5,7 @@ fib(13)
 
 
 % 2. Calculate levensthein distance between two strings
-lev_dist("kitten", "sitting")
+lev_dist('kitten', 'sitting')
 
 
 function output = fib(n)
@@ -23,24 +23,40 @@ function output = fib(n)
 end
 
 function output = lev_dist(a, b)
+% define a and b as characters
+a = char(a);
+b = char(b);
+% calculate the length of each character
 len_a = length(a);
 len_b = length(b);
-my_mat = zeros(0, len_b+1, len_a+1);
+%create a vector of zeros that is len_a+1 x len_b+1 dimensions
+% we add the 1 to each length so that the first row and column will remain
+% zeroes in the calculation
+my_mat = zeros(len_b+1, len_a+1);
 
+% create a nested for loop that first loops over each row and then each
+% column of each row
 for i = 2:len_b+1
     for j = 2:len_a+1
-      if a(j) == b[i]
+      % define the cost of a given diagonal move based on whether the
+      % current cell of the matrix corresponds to a match in the two words
+      if a(j-1) == b(i-1)
           cost = 0;
       else
           cost = 1;
       end   
-      hor = my_mat(i-1, j) + 1;
-      ver = my_mat(i, j-1) + 1;
+      % calculate the potential values of the current cell by calculating
+      % what the value would be for a horizontal move (hor), a vertical
+      % move (ver), and a diagonal move (diag)
+      ver = my_mat(i-1, j) + 1;
+      hor = my_mat(i, j-1) + 1;
       diag = my_mat(i-1, j-1) + cost;
-          
+       
+      % define the current cell as the minimum of the 
       my_mat(i, j) = min([hor, ver, diag]);
+      
     end   
     
 end
-output = my_mat;
+output = my_mat(len_b+1, len_a+1);
 end
