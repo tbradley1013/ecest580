@@ -1,0 +1,53 @@
+LOCUS       AAD01939                 230 aa            linear   PRI 03-DEC-1999
+DEFINITION  homeobox protein HOXA7 [Homo sapiens].
+ACCESSION   AAD01939
+VERSION     AAD01939.2
+DBSOURCE    accession AF032095.2
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 230)
+  AUTHORS   Kim,M.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-DEC-1999) Anatomy, College of Medicine, Yonsei
+            University, 134 Shinchon-dong, Sodaemoon-ku, Seoul 120-749, South
+            Korea
+  REMARK    Sequence update by submitter
+COMMENT     On Dec 3, 1999 this sequence version replaced AAD01939.1.
+            Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..230
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="7"
+                     /map="7p15"
+                     /clone="cosmid 188A12"
+     Protein         1..230
+                     /product="homeobox protein HOXA7"
+     Site            order(131..135,137,154,160,173,175..176,179..180,182..184,
+                     186..187)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     Site            order(133,136,176,179..180,183)
+                     /site_type="other"
+                     /note="specific DNA base contacts [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     Region          134..186
+                     /region_name="Homeobox"
+                     /note="Homeobox domain; pfam00046"
+                     /db_xref="CDD:278475"
+     CDS             1..230
+                     /gene="HOXA7"
+                     /coded_by="join(AF032095.2:614..992,
+                     AF032095.2:1935..2248)"
+ORIGIN      
+        1 msssyyvnal fskytagtsl fqnaeptscs fapnsqrsgy gagagafast vpglynvnsp
+       61 lyqspfasgy glgadaygnl pcasydqnip glcsdlakga cdktdegalh gaaeanfriy
+      121 pwmrssgpdr krgrqtytry qtlelekefh fnryltrrrr ieiahalclt erqvkiwfqn
+      181 rrmkwkkehk degptaaaap egavpsaaat aaadkadeed ddeeeedeee
+//
+

@@ -1,0 +1,62 @@
+LOCUS       AAQ67266                 380 aa            linear   INV 27-OCT-2009
+DEFINITION  antennapedia [Drosophila virilis].
+ACCESSION   AAQ67266
+VERSION     AAQ67266.1
+DBSOURCE    accession AY333070.1
+KEYWORDS    .
+SOURCE      Drosophila virilis
+  ORGANISM  Drosophila virilis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Holometabola; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila.
+REFERENCE   1  (residues 1 to 380)
+  AUTHORS   Lewis,E.B., Pfeiffer,B.D., Mathog,D.R. and Celniker,S.E.
+  TITLE     Evolution of the homeobox complex in the Diptera
+  JOURNAL   Curr. Biol. 13 (15), R587-R588 (2003)
+   PUBMED   12906807
+REFERENCE   2  (residues 1 to 380)
+  AUTHORS   Pfeiffer,B.D., Lewis,E.B., Park,S., Wan,K. and Celniker,S.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2003) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, 1 Cyclotron Rd., Berkeley,
+            CA 94720, USA
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..380
+                     /organism="Drosophila virilis"
+                     /db_xref="taxon:7244"
+                     /chromosome="2"
+                     /map="24E"
+     Protein         1..380
+                     /product="antennapedia"
+                     /name="transcription factor"
+     Site            order(300..304,306,323,329,342,344..345,348..349,351..353,
+                     355..356)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     Site            order(302,305,345,348..349,352)
+                     /site_type="other"
+                     /note="specific DNA base contacts [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     Region          303..355
+                     /region_name="Homeobox"
+                     /note="Homeobox domain; pfam00046"
+                     /db_xref="CDD:278475"
+     CDS             1..380
+                     /gene="Antp"
+                     /coded_by="complement(join(AY333070.1:2176..2426,
+                     AY333070.1:13726..13960,AY333070.1:14082..14120,
+                     AY333070.1:14253..14870))"
+                     /note="similar to the Drosophila virilis antennapedia
+                     protein encoded by GenBank Accession Number M95825"
+ORIGIN      
+        1 mtmstnnces mtsyftnsym gadmhhghyp gngvtdldaq qmhhysqnpn qqgnmpyprf
+       61 ppydrmpyyn gqgmdqqqqq hqgysrpdsp ssqvggvmpq aqtngqlvsv aqqqqqtqqq
+      121 qqaqtqqqqa qqaplqqqqh pqvtqqvthp qqqqpvvyas cklqaavggl gmvqeggspp
+      181 lvdqmgghhm naqmtlphhm ghpqaqlgyt dvgvpdvtev hqnhhnmgmy gqqqtgvppv
+      241 vappqammhp gagqgppqmh qghpgqhtpp sqnpssqssg mpsplypwmr sqfgkcqerk
+      301 rgrqtytryq tlelekefhf nryltrrrri eiahalclte rqikiwfqnr rmkwkkenkt
+      361 kgepgsggeg deitppnspq
+//
+

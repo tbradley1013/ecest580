@@ -1,0 +1,92 @@
+LOCUS       NC_008253               1377 bp    DNA     linear   CON 10-JUN-2013
+DEFINITION  Escherichia coli 536, complete genome.
+ACCESSION   NC_008253 REGION: 2632315..2633691
+VERSION     NC_008253.1  GI:110640213
+DBLINK      Project: 58531
+            BioProject: PRJNA58531
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli 536
+  ORGANISM  Escherichia coli 536
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 1377)
+  AUTHORS   Hochhut,B., Wilde,C., Balling,G., Middendorf,B., Dobrindt,U.,
+            Brzuszkiewicz,E., Gottschalk,G., Carniel,E. and Hacker,J.
+  TITLE     Role of pathogenicity island-associated integrases in the genome
+            plasticity of uropathogenic Escherichia coli strain 536
+  JOURNAL   Mol. Microbiol. 61 (3), 584-595 (2006)
+   PUBMED   16879640
+REFERENCE   2  (bases 1 to 1377)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2006) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1377)
+  AUTHORS   Brzuszkiewicz,E., Brueggemann,H., Liesegang,H., Emmerth,M.,
+            Oelschlaeger,T., Nagy,G., Albermann,K., Wagner,C., Emody,L.,
+            Gottschalk,G., Hacker,J. and Dobrind,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2006) Institute of Microbiology and Genetics,
+            Georg August University Goettingen, Goettingen Genomics Laboratory,
+            Grisebachstr. 8, Goettingen D-37077, Germany
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CP000247.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /organism="Escherichia coli 536"
+                     /mol_type="genomic DNA"
+                     /strain="536"
+                     /db_xref="taxon:362663"
+                     /serogroup="O6:K15:H31"
+     gene            1..1377
+                     /gene="xseA"
+                     /locus_tag="ECP_2511"
+                     /db_xref="GeneID:4187696"
+     CDS             1..1377
+                     /gene="xseA"
+                     /locus_tag="ECP_2511"
+                     /EC_number="3.1.11.6"
+                     /note="bidirectionally degrades single-stranded DNA into
+                     large acid-insoluble oligonucleotides"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="exodeoxyribonuclease VII large subunit"
+                     /protein_id="YP_670401.1"
+                     /db_xref="GI:110642671"
+                     /db_xref="GeneID:4187696"
+                     /translation="MLPSQSPAIFTVSRLNQTVRLLLEHEMGQVWISGEISNFTQPAS
+                     GHWYFTLKDDTAQVRCAMFRNSNRRVTFRPQHGQQVLVRANITLYEPRGDYQIIVESM
+                     QPAGEGLLQQKYEQLKAKLQAEGLFDQQYKKTLPSPAHCVGVITSKTGAALHDILHVL
+                     KRRDPSLPVIIYPTAVQGDDAPGQIVRAIELANQRNECDVLIVGRGGGSLEDLWSFND
+                     ERVARAIFASLIPVVSAVGHETDVTIADFVADLRAPTPSAAAEVVSRNQQELLRQVQS
+                     AQQRLEMAMDYYLANRTRRFTQIHHRLQQQHPQLRLARQQTMLERLQKRMSFALENQL
+                     KRAGQQQQRLTRQLVQQNPQSRIHRAQTRIQQLEYRLAETLRAQLSATRERFGNAVTH
+                     LEAVSPLSTLARGYSVTSAADGALLKQVKQVKVGETLTTRLGDGVVISEVSAVTKTRK
+                     SRKKTSNP"
+ORIGIN      
+        1 atgttacctt ctcaatcccc tgcaattttt accgttagcc gcctgaatca aacagttcgt
+       61 ctgctgcttg agcatgagat ggggcaggtg tggatcagcg gcgaaatctc taattttaca
+      121 caaccagcct ccggtcactg gtactttacg cttaaagacg ataccgcgca ggtgcgctgt
+      181 gcgatgttcc gaaacagcaa ccgccgggtc accttccgcc cacagcacgg gcaacaggtt
+      241 ttagttcgcg ccaatattac gctctacgag ccgcgcggtg actaccagat tatcgtcgaa
+      301 agtatgcagc ctgccggtga agggttgctg caacaaaaat acgaacagct taaagcgaaa
+      361 ttgcaggctg aaggtctgtt cgatcagcaa tacaaaaaaa cacttccctc ccctgcgcat
+      421 tgcgtcggtg tgatcacctc aaaaaccggt gctgcgctac atgatatttt gcatgtgtta
+      481 aaacgtcgcg atccttctct gccggtgatc atctacccca ccgccgttca gggcgatgac
+      541 gcgccggggc aaattgttcg cgccattgag ctggcgaatc agcgaaacga gtgcgacgtg
+      601 ttaatcgtcg ggcgcggcgg cggttcgctg gaagatttgt ggagttttaa cgacgaacgc
+      661 gtagcgcggg cgatttttgc cagcctcatt ccggtagtaa gtgccgtcgg gcatgaaacc
+      721 gatgtgacga ttgccgattt tgttgctgat ttgcgtgcgc caacgccgtc tgccgccgct
+      781 gaagtagtga gccgcaatca acaggagtta ctgcgtcagg tgcagtctgc gcagcagcgc
+      841 ctcgaaatgg caatggatta ttatctcgcc aaccgcacgc gtcgttttac gcagatccat
+      901 catcgcttac agcaacagca tccgcagctc cggctggcac gtcagcaaac tatgctcgaa
+      961 cgtctgcaaa agcggatgag ctttgcgctg gagaatcagc ttaaacgcgc gggtcagcaa
+     1021 cagcagcgat taacacggca actcgtccag caaaatccgc agtcgcgtat tcatcgcgcg
+     1081 caaacgcgca ttcagcaact ggaatatcgt ttagcagaaa ccctgcgcgc acagcttagc
+     1141 gccacgcgtg aacgtttcgg taatgcagta acacacctcg aagccgtaag cccactgtca
+     1201 acgctggcgc gcggttatag cgtcaccagc gccgctgatg gcgcgctgtt aaaacaggtt
+     1261 aagcaagtga aagtgggtga gacactgacc acacgactgg gagatggtgt ggtgattagt
+     1321 gaagtcagcg ccgtaacaaa aacccgcaaa tcacgtaaaa aaacgtctaa tccgtag
+//
+
