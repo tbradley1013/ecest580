@@ -23,7 +23,8 @@ seq_sub = seq(141:147);
 % Using the Matlab function from part b), calculate the number of sequences that could
 % give rise to the 7 amino acid sequence found in part a).
 sub_seq_code = rev_seq(seq_sub);
-length(sub_seq_code)
+num_possible_seqs = length(sub_seq_code);
+% num_possible_seqs = 9216
 
 
 % d)
@@ -46,21 +47,37 @@ harvard_gc_sec = rev_seq_gc(seq_sub);
 ecoli1 = getgenbank("NC_002655");
 ecoli2 = getgenbank("NC_002695");
 
+% The two given accession numbers produce full genomes that don't have
+% actual sequences in them, but rather refer you to accession numbers along
+% with the interval of said accession number which corresponds to this
+% genome. In both cases, the interval of the accession number is the full
+% length. So reading in the actual sequences
 ecoli1_contig = "AE005174.2";
 ecoli2_contig = "BA000007.3";
 
 ecoli1 = getgenbank(ecoli1_contig);
 ecoli2 = getgenbank(ecoli2_contig);
 
-global_align = nwalign(ecoli1.Sequence, ecoli2.Sequence, "Alphabet", "NT")
+% It is not possible to do a global alignment of these two sequences in
+% matlab. When it is attempted, I get the following error:
+% global_align = nwalign(ecoli1.Sequence, ecoli2.Sequence, "Alphabet", "NT");
+%
+% Error using simplegapmex
+% Requested 5498579x5528446 (28310.9GB) array exceeds maximum array size preference. Creation of arrays greater than this
+% limit may take a long time and cause MATLAB to become unresponsive. See array size limit or preference panel for more
+% information.
 
+% This also does not work from matlab, as it exceeds the maximum allowed
+% length of a blast match from matlab. When this is run, it tells me to go
+% to the NCBI website to perform a blast on a sequence longer than 8000 bp
+% ecoli1_blast = blastncbi(ecoli1, "blastn", "database", "nr");
 
 % b)
 % Take two similar genes of E. Coli sequences, gene1.gb and gene2.gb. Align them as
 % nucleotide sequences with global alignment (print out the score and alignment).
 % Where is the region of dense dissimilarity?
-gene1 = genbankread("hw1_files/gene1.gb");
-gene2 = genbankread("hw1_files/gene2.gb");
+gene1 = genbankread("homeworks/hw1_files/gene1.gb");
+gene2 = genbankread("homeworks/hw1_files/gene2.gb");
 
 [b_score, b_align] = nwalign(gene1.Sequence, gene2.Sequence, "Alphabet", "NT");
 
@@ -80,7 +97,9 @@ for i = 1:length(b_align)-window
     rolling_score(i) = current_score;
 end
 
-plot(rolling_score);
+figure(1)
+plot(rolling_score)
+title("Rolling Count of Mismatches over 20 bp window")
 
 % The dense window of mismatches is at the 828th nucleotide
 
@@ -106,7 +125,9 @@ for i = 1:length(b_aa_align)-window
     rolling_score_aa(i) = current_score;
 end
 
-plot(rolling_score_aa);
+figure(2)
+plot(rolling_score_aa)
+title("Rolling Count of Mismatches over 20 aa window")
 
 % The peak of mismatches is not in the same sequence range. If it was in
 % the same it would be around the 275th protein but the peak (which is only
