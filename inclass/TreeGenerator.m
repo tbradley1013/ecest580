@@ -1,3 +1,5 @@
+
+
 function root = TreeGenerator(input_list)
 %% create a BST from a sorted list
     if isempty(input_list)
