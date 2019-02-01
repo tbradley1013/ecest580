@@ -5,7 +5,7 @@
   <BlastOutput_version>BLASTN 2.8.1+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>nr</BlastOutput_db>
-  <BlastOutput_query-ID>Query_228741</BlastOutput_query-ID>
+  <BlastOutput_query-ID>Query_28853</BlastOutput_query-ID>
   <BlastOutput_query-def>No definition line</BlastOutput_query-def>
   <BlastOutput_query-len>1435</BlastOutput_query-len>
   <BlastOutput_param>
@@ -21,7 +21,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_228741</Iteration_query-ID>
+  <Iteration_query-ID>Query_28853</Iteration_query-ID>
   <Iteration_query-def>No definition line</Iteration_query-def>
   <Iteration_query-len>1435</Iteration_query-len>
 <Iteration_hits>
@@ -92,7 +92,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>634.846</Hsp_bit-score>
       <Hsp_score>320</Hsp_score>
-      <Hsp_evalue>2.09805e-177</Hsp_evalue>
+      <Hsp_evalue>2.15853e-177</Hsp_evalue>
       <Hsp_query-from>1075</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1641</Hsp_hit-from>
@@ -120,7 +120,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>634.846</Hsp_bit-score>
       <Hsp_score>320</Hsp_score>
-      <Hsp_evalue>2.09805e-177</Hsp_evalue>
+      <Hsp_evalue>2.15853e-177</Hsp_evalue>
       <Hsp_query-from>1075</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1688</Hsp_hit-from>
@@ -148,7 +148,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>634.846</Hsp_bit-score>
       <Hsp_score>320</Hsp_score>
-      <Hsp_evalue>2.09805e-177</Hsp_evalue>
+      <Hsp_evalue>2.15853e-177</Hsp_evalue>
       <Hsp_query-from>1075</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1746</Hsp_hit-from>
@@ -176,7 +176,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>634.846</Hsp_bit-score>
       <Hsp_score>320</Hsp_score>
-      <Hsp_evalue>2.09805e-177</Hsp_evalue>
+      <Hsp_evalue>2.15853e-177</Hsp_evalue>
       <Hsp_query-from>1075</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1658</Hsp_hit-from>
@@ -204,7 +204,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>309.74</Hsp_bit-score>
       <Hsp_score>156</Hsp_score>
-      <Hsp_evalue>1.54345e-79</Hsp_evalue>
+      <Hsp_evalue>1.58794e-79</Hsp_evalue>
       <Hsp_query-from>1075</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1581</Hsp_hit-from>
@@ -232,7 +232,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>250.269</Hsp_bit-score>
       <Hsp_score>126</Hsp_score>
-      <Hsp_evalue>1.23292e-61</Hsp_evalue>
+      <Hsp_evalue>1.26846e-61</Hsp_evalue>
       <Hsp_query-from>1092</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1733</Hsp_hit-from>
@@ -251,7 +251,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>52.0341</Hsp_bit-score>
       <Hsp_score>26</Hsp_score>
-      <Hsp_evalue>0.0583092</Hsp_evalue>
+      <Hsp_evalue>0.05999</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>764</Hsp_query-to>
       <Hsp_hit-from>1389</Hsp_hit-from>
@@ -279,7 +279,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>250.269</Hsp_bit-score>
       <Hsp_score>126</Hsp_score>
-      <Hsp_evalue>1.23292e-61</Hsp_evalue>
+      <Hsp_evalue>1.26846e-61</Hsp_evalue>
       <Hsp_query-from>1092</Hsp_query-from>
       <Hsp_query-to>1427</Hsp_query-to>
       <Hsp_hit-from>1701</Hsp_hit-from>
@@ -298,7 +298,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>52.0341</Hsp_bit-score>
       <Hsp_score>26</Hsp_score>
-      <Hsp_evalue>0.0583092</Hsp_evalue>
+      <Hsp_evalue>0.05999</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>764</Hsp_query-to>
       <Hsp_hit-from>1357</Hsp_hit-from>
@@ -326,7 +326,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>248.287</Hsp_bit-score>
       <Hsp_score>125</Hsp_score>
-      <Hsp_evalue>4.87171e-61</Hsp_evalue>
+      <Hsp_evalue>5.01215e-61</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>125</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -345,7 +345,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>50.0517</Hsp_bit-score>
       <Hsp_score>25</Hsp_score>
-      <Hsp_evalue>0.230401</Hsp_evalue>
+      <Hsp_evalue>0.237043</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>771</Hsp_query-to>
       <Hsp_hit-from>887</Hsp_hit-from>
@@ -373,7 +373,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>230.446</Hsp_bit-score>
       <Hsp_score>116</Hsp_score>
-      <Hsp_evalue>1.14397e-55</Hsp_evalue>
+      <Hsp_evalue>1.17694e-55</Hsp_evalue>
       <Hsp_query-from>3</Hsp_query-from>
       <Hsp_query-to>125</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -392,7 +392,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>50.0517</Hsp_bit-score>
       <Hsp_score>25</Hsp_score>
-      <Hsp_evalue>0.230401</Hsp_evalue>
+      <Hsp_evalue>0.237043</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>771</Hsp_query-to>
       <Hsp_hit-from>886</Hsp_hit-from>
@@ -420,7 +420,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>222.517</Hsp_bit-score>
       <Hsp_score>112</Hsp_score>
-      <Hsp_evalue>2.78873e-53</Hsp_evalue>
+      <Hsp_evalue>2.86912e-53</Hsp_evalue>
       <Hsp_query-from>7</Hsp_query-from>
       <Hsp_query-to>125</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -439,7 +439,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>50.0517</Hsp_bit-score>
       <Hsp_score>25</Hsp_score>
-      <Hsp_evalue>0.230401</Hsp_evalue>
+      <Hsp_evalue>0.237043</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>771</Hsp_query-to>
       <Hsp_hit-from>882</Hsp_hit-from>
@@ -467,7 +467,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>218.552</Hsp_bit-score>
       <Hsp_score>110</Hsp_score>
-      <Hsp_evalue>4.35414e-52</Hsp_evalue>
+      <Hsp_evalue>4.47965e-52</Hsp_evalue>
       <Hsp_query-from>9</Hsp_query-from>
       <Hsp_query-to>125</Hsp_query-to>
       <Hsp_hit-from>535</Hsp_hit-from>
@@ -486,7 +486,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>50.0517</Hsp_bit-score>
       <Hsp_score>25</Hsp_score>
-      <Hsp_evalue>0.230401</Hsp_evalue>
+      <Hsp_evalue>0.237043</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>771</Hsp_query-to>
       <Hsp_hit-from>1414</Hsp_hit-from>
@@ -514,7 +514,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>180.887</Hsp_bit-score>
       <Hsp_score>91</Hsp_score>
-      <Hsp_evalue>9.4867e-41</Hsp_evalue>
+      <Hsp_evalue>9.76016e-41</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>84</Hsp_hit-from>
@@ -542,7 +542,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>178.905</Hsp_bit-score>
       <Hsp_score>90</Hsp_score>
-      <Hsp_evalue>3.74855e-40</Hsp_evalue>
+      <Hsp_evalue>3.8566e-40</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>603</Hsp_query-to>
       <Hsp_hit-from>562</Hsp_hit-from>
@@ -570,7 +570,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>159.081</Hsp_bit-score>
       <Hsp_score>80</Hsp_score>
-      <Hsp_evalue>3.47811e-34</Hsp_evalue>
+      <Hsp_evalue>3.57837e-34</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>636</Hsp_query-to>
       <Hsp_hit-from>42</Hsp_hit-from>
@@ -589,7 +589,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>59.9635</Hsp_bit-score>
       <Hsp_score>30</Hsp_score>
-      <Hsp_evalue>0.000239191</Hsp_evalue>
+      <Hsp_evalue>0.000246086</Hsp_evalue>
       <Hsp_query-from>663</Hsp_query-from>
       <Hsp_query-to>748</Hsp_query-to>
       <Hsp_hit-from>219</Hsp_hit-from>
@@ -617,7 +617,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>149.169</Hsp_bit-score>
       <Hsp_score>75</Hsp_score>
-      <Hsp_evalue>3.3503e-31</Hsp_evalue>
+      <Hsp_evalue>3.44687e-31</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>777</Hsp_hit-from>
@@ -636,7 +636,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>87.7165</Hsp_bit-score>
       <Hsp_score>44</Hsp_score>
-      <Hsp_evalue>1.05748e-12</Hsp_evalue>
+      <Hsp_evalue>1.08796e-12</Hsp_evalue>
       <Hsp_query-from>166</Hsp_query-from>
       <Hsp_query-to>281</Hsp_query-to>
       <Hsp_hit-from>474</Hsp_hit-from>
@@ -655,7 +655,7 @@
       <Hsp_num>3</Hsp_num>
       <Hsp_bit-score>48.0694</Hsp_bit-score>
       <Hsp_score>24</Hsp_score>
-      <Hsp_evalue>0.910402</Hsp_evalue>
+      <Hsp_evalue>0.936645</Hsp_evalue>
       <Hsp_query-from>333</Hsp_query-from>
       <Hsp_query-to>372</Hsp_query-to>
       <Hsp_hit-from>635</Hsp_hit-from>
@@ -683,7 +683,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>149.169</Hsp_bit-score>
       <Hsp_score>75</Hsp_score>
-      <Hsp_evalue>3.3503e-31</Hsp_evalue>
+      <Hsp_evalue>3.44687e-31</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>1053</Hsp_hit-from>
@@ -711,7 +711,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>149.169</Hsp_bit-score>
       <Hsp_score>75</Hsp_score>
-      <Hsp_evalue>3.3503e-31</Hsp_evalue>
+      <Hsp_evalue>3.44687e-31</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>311</Hsp_hit-from>
@@ -730,7 +730,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>79.787</Hsp_bit-score>
       <Hsp_score>40</Hsp_score>
-      <Hsp_evalue>2.57789e-10</Hsp_evalue>
+      <Hsp_evalue>2.6522e-10</Hsp_evalue>
       <Hsp_query-from>166</Hsp_query-from>
       <Hsp_query-to>281</Hsp_query-to>
       <Hsp_hit-from>8</Hsp_hit-from>
@@ -749,7 +749,7 @@
       <Hsp_num>3</Hsp_num>
       <Hsp_bit-score>55.9988</Hsp_bit-score>
       <Hsp_score>28</Hsp_score>
-      <Hsp_evalue>0.00373457</Hsp_evalue>
+      <Hsp_evalue>0.00384222</Hsp_evalue>
       <Hsp_query-from>333</Hsp_query-from>
       <Hsp_query-to>372</Hsp_query-to>
       <Hsp_hit-from>169</Hsp_hit-from>
@@ -777,7 +777,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>143.222</Hsp_bit-score>
       <Hsp_score>72</Hsp_score>
-      <Hsp_evalue>2.06694e-29</Hsp_evalue>
+      <Hsp_evalue>2.12652e-29</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>636</Hsp_query-to>
       <Hsp_hit-from>297</Hsp_hit-from>
@@ -796,7 +796,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>52.0341</Hsp_bit-score>
       <Hsp_score>26</Hsp_score>
-      <Hsp_evalue>0.0583092</Hsp_evalue>
+      <Hsp_evalue>0.05999</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>748</Hsp_query-to>
       <Hsp_hit-from>521</Hsp_hit-from>
@@ -824,7 +824,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>119.434</Hsp_bit-score>
       <Hsp_score>60</Hsp_score>
-      <Hsp_evalue>2.99436e-22</Hsp_evalue>
+      <Hsp_evalue>3.08067e-22</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>636</Hsp_query-to>
       <Hsp_hit-from>1103</Hsp_hit-from>
@@ -843,7 +843,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>46.087</Hsp_bit-score>
       <Hsp_score>23</Hsp_score>
-      <Hsp_evalue>3.59734</Hsp_evalue>
+      <Hsp_evalue>3.70103</Hsp_evalue>
       <Hsp_query-from>649</Hsp_query-from>
       <Hsp_query-to>711</Hsp_query-to>
       <Hsp_hit-from>1266</Hsp_hit-from>
@@ -862,6 +862,34 @@
 </Hit>
 <Hit>
   <Hit_num>22</Hit_num>
+  <Hit_id>gi|1561653384|ref|XM_027831941.1|</Hit_id>
+  <Hit_def>PREDICTED: Chelonia mydas GATA binding protein 1 (GATA1), mRNA</Hit_def>
+  <Hit_accession>XM_027831941</Hit_accession>
+  <Hit_len>1149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.575</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.83075e-17</Hsp_evalue>
+      <Hsp_query-from>719</Hsp_query-from>
+      <Hsp_query-to>806</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ACGCCTGCGGCCTCTACTACAAACTGCACCAAGTGAACCGCCCCCTCACGATGCGCAAAGACGGAATCCAAACCCGAAACCGCAAAGT</Hsp_qseq>
+      <Hsp_hseq>ACGCCTGCGGCCTCTACTACAAACTGCACAACGTCAATCGCCCCCTGACGATGCGGAAAGACGGCATCCAGACCCGCAACCGCAAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| | || || |||||||| |||||||| |||||||| ||||| ||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
   <Hit_id>gi|1487177165|ref|XM_024223354.2|</Hit_id>
   <Hit_def>PREDICTED: Terrapene mexicana triunguis erythroid transcription factor-like (LOC112124898), mRNA</Hit_def>
   <Hit_accession>XM_024223354</Hit_accession>
@@ -871,7 +899,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>103.575</Hsp_bit-score>
       <Hsp_score>52</Hsp_score>
-      <Hsp_evalue>1.77946e-17</Hsp_evalue>
+      <Hsp_evalue>1.83075e-17</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>806</Hsp_query-to>
       <Hsp_hit-from>188</Hsp_hit-from>
@@ -889,7 +917,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>23</Hit_num>
+  <Hit_num>24</Hit_num>
   <Hit_id>gi|1344895696|ref|XM_024112231.1|</Hit_id>
   <Hit_def>PREDICTED: Chrysemys picta bellii GATA binding protein 1 (GATA1), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_024112231</Hit_accession>
@@ -899,7 +927,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>103.575</Hsp_bit-score>
       <Hsp_score>52</Hsp_score>
-      <Hsp_evalue>1.77946e-17</Hsp_evalue>
+      <Hsp_evalue>1.83075e-17</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>806</Hsp_query-to>
       <Hsp_hit-from>906</Hsp_hit-from>
@@ -918,7 +946,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>524</Hsp_query-to>
       <Hsp_hit-from>682</Hsp_hit-from>
@@ -936,7 +964,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>24</Hit_num>
+  <Hit_num>25</Hit_num>
   <Hit_id>gi|1344895694|ref|XM_024112230.1|</Hit_id>
   <Hit_def>PREDICTED: Chrysemys picta bellii GATA binding protein 1 (GATA1), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_024112230</Hit_accession>
@@ -946,7 +974,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>103.575</Hsp_bit-score>
       <Hsp_score>52</Hsp_score>
-      <Hsp_evalue>1.77946e-17</Hsp_evalue>
+      <Hsp_evalue>1.83075e-17</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>806</Hsp_query-to>
       <Hsp_hit-from>949</Hsp_hit-from>
@@ -965,7 +993,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>524</Hsp_query-to>
       <Hsp_hit-from>725</Hsp_hit-from>
@@ -983,7 +1011,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>25</Hit_num>
+  <Hit_num>26</Hit_num>
   <Hit_id>gi|1344895692|ref|XM_024112229.1|</Hit_id>
   <Hit_def>PREDICTED: Chrysemys picta bellii GATA binding protein 1 (GATA1), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_024112229</Hit_accession>
@@ -993,7 +1021,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>103.575</Hsp_bit-score>
       <Hsp_score>52</Hsp_score>
-      <Hsp_evalue>1.77946e-17</Hsp_evalue>
+      <Hsp_evalue>1.83075e-17</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>806</Hsp_query-to>
       <Hsp_hit-from>4260</Hsp_hit-from>
@@ -1012,7 +1040,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>524</Hsp_query-to>
       <Hsp_hit-from>4036</Hsp_hit-from>
@@ -1030,7 +1058,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>26</Hit_num>
+  <Hit_num>27</Hit_num>
   <Hit_id>gi|959091199|ref|XM_014894235.1|</Hit_id>
   <Hit_def>PREDICTED: Sturnus vulgaris GATA binding protein 1 (globin transcription factor 1) (GATA1), partial mRNA</Hit_def>
   <Hit_accession>XM_014894235</Hit_accession>
@@ -1040,7 +1068,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>91.6812</Hsp_bit-score>
       <Hsp_score>46</Hsp_score>
-      <Hsp_evalue>6.77293e-14</Hsp_evalue>
+      <Hsp_evalue>6.96816e-14</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>13</Hsp_hit-from>
@@ -1058,7 +1086,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>27</Hit_num>
+  <Hit_num>28</Hit_num>
   <Hit_id>gi|929511068|ref|XM_014261877.1|</Hit_id>
   <Hit_def>PREDICTED: Pseudopodoces humilis GATA binding protein 1 (globin transcription factor 1) (GATA1), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_014261877</Hit_accession>
@@ -1068,7 +1096,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>87.7165</Hsp_bit-score>
       <Hsp_score>44</Hsp_score>
-      <Hsp_evalue>1.05748e-12</Hsp_evalue>
+      <Hsp_evalue>1.08796e-12</Hsp_evalue>
       <Hsp_query-from>721</Hsp_query-from>
       <Hsp_query-to>832</Hsp_query-to>
       <Hsp_hit-from>321</Hsp_hit-from>
@@ -1087,7 +1115,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>52.0341</Hsp_bit-score>
       <Hsp_score>26</Hsp_score>
-      <Hsp_evalue>0.0583092</Hsp_evalue>
+      <Hsp_evalue>0.05999</Hsp_evalue>
       <Hsp_query-from>649</Hsp_query-from>
       <Hsp_query-to>710</Hsp_query-to>
       <Hsp_hit-from>258</Hsp_hit-from>
@@ -1105,7 +1133,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>28</Hit_num>
+  <Hit_num>29</Hit_num>
   <Hit_id>gi|241998887|ref|XM_002434042.1|</Hit_id>
   <Hit_def>Ixodes scapularis endothelial transcription factor GATA-2, putative, mRNA</Hit_def>
   <Hit_accession>XM_002434042</Hit_accession>
@@ -1115,7 +1143,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>87.7165</Hsp_bit-score>
       <Hsp_score>44</Hsp_score>
-      <Hsp_evalue>1.05748e-12</Hsp_evalue>
+      <Hsp_evalue>1.08796e-12</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>543</Hsp_hit-from>
@@ -1133,7 +1161,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>29</Hit_num>
+  <Hit_num>30</Hit_num>
   <Hit_id>gi|504151229|ref|XM_004587923.1|</Hit_id>
   <Hit_def>PREDICTED: Ochotona princeps GATA binding protein 1 (globin transcription factor 1) (GATA1), mRNA</Hit_def>
   <Hit_accession>XM_004587923</Hit_accession>
@@ -1143,7 +1171,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>85.7341</Hsp_bit-score>
       <Hsp_score>43</Hsp_score>
-      <Hsp_evalue>4.1785e-12</Hsp_evalue>
+      <Hsp_evalue>4.29895e-12</Hsp_evalue>
       <Hsp_query-from>721</Hsp_query-from>
       <Hsp_query-to>803</Hsp_query-to>
       <Hsp_hit-from>847</Hsp_hit-from>
@@ -1161,7 +1189,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>30</Hit_num>
+  <Hit_num>31</Hit_num>
   <Hit_id>gi|632988157|ref|XM_007884760.1|</Hit_id>
   <Hit_def>PREDICTED: Callorhinchus milii GATA-binding factor 1-A-like (LOC103171966), mRNA</Hit_def>
   <Hit_accession>XM_007884760</Hit_accession>
@@ -1171,7 +1199,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>79.787</Hsp_bit-score>
       <Hsp_score>40</Hsp_score>
-      <Hsp_evalue>2.57789e-10</Hsp_evalue>
+      <Hsp_evalue>2.6522e-10</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>806</Hsp_query-to>
       <Hsp_hit-from>1006</Hsp_hit-from>
@@ -1190,7 +1218,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>63.9282</Hsp_bit-score>
       <Hsp_score>32</Hsp_score>
-      <Hsp_evalue>1.53196e-05</Hsp_evalue>
+      <Hsp_evalue>1.57612e-05</Hsp_evalue>
       <Hsp_query-from>472</Hsp_query-from>
       <Hsp_query-to>603</Hsp_query-to>
       <Hsp_hit-from>789</Hsp_hit-from>
@@ -1208,7 +1236,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>31</Hit_num>
+  <Hit_num>32</Hit_num>
   <Hit_id>gi|1475913586|ref|XM_026435050.1|</Hit_id>
   <Hit_def>PREDICTED: Frankliniella occidentalis endothelial transcription factor GATA-2-like (LOC113215418), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_026435050</Hit_accession>
@@ -1218,7 +1246,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>77.8047</Hsp_bit-score>
       <Hsp_score>39</Hsp_score>
-      <Hsp_evalue>1.01862e-09</Hsp_evalue>
+      <Hsp_evalue>1.04798e-09</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>643</Hsp_hit-from>
@@ -1236,7 +1264,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>32</Hit_num>
+  <Hit_num>33</Hit_num>
   <Hit_id>gi|1475913584|ref|XM_026435049.1|</Hit_id>
   <Hit_def>PREDICTED: Frankliniella occidentalis endothelial transcription factor GATA-2-like (LOC113215418), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_026435049</Hit_accession>
@@ -1246,35 +1274,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>77.8047</Hsp_bit-score>
       <Hsp_score>39</Hsp_score>
-      <Hsp_evalue>1.01862e-09</Hsp_evalue>
-      <Hsp_query-from>466</Hsp_query-from>
-      <Hsp_query-to>528</Hsp_query-to>
-      <Hsp_hit-from>985</Hsp_hit-from>
-      <Hsp_hit-to>1047</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>57</Hsp_identity>
-      <Hsp_positive>57</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>63</Hsp_align-len>
-      <Hsp_qseq>AACTGCGGAGCGACGGCAACGCCGCTGTGGCGCCGGGACGGCACCGGGCATTACCTGTGCAAC</Hsp_qseq>
-      <Hsp_hseq>AACTGCGGCGCGACGTCGACGCCGCTGTGGCGCCGCGACGGCACGGGGCACTACCTGTGCAAC</Hsp_hseq>
-      <Hsp_midline>|||||||| |||||| | ||||||||||||||||| |||||||| ||||| ||||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>33</Hit_num>
-  <Hit_id>gi|1475913582|ref|XM_026435047.1|</Hit_id>
-  <Hit_def>PREDICTED: Frankliniella occidentalis endothelial transcription factor GATA-2-like (LOC113215418), transcript variant X1, mRNA</Hit_def>
-  <Hit_accession>XM_026435047</Hit_accession>
-  <Hit_len>4027</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>77.8047</Hsp_bit-score>
-      <Hsp_score>39</Hsp_score>
-      <Hsp_evalue>1.01862e-09</Hsp_evalue>
+      <Hsp_evalue>1.04798e-09</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>985</Hsp_hit-from>
@@ -1293,6 +1293,34 @@
 </Hit>
 <Hit>
   <Hit_num>34</Hit_num>
+  <Hit_id>gi|1475913582|ref|XM_026435047.1|</Hit_id>
+  <Hit_def>PREDICTED: Frankliniella occidentalis endothelial transcription factor GATA-2-like (LOC113215418), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_026435047</Hit_accession>
+  <Hit_len>4027</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.8047</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>1.04798e-09</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>985</Hsp_hit-from>
+      <Hsp_hit-to>1047</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AACTGCGGAGCGACGGCAACGCCGCTGTGGCGCCGGGACGGCACCGGGCATTACCTGTGCAAC</Hsp_qseq>
+      <Hsp_hseq>AACTGCGGCGCGACGTCGACGCCGCTGTGGCGCCGCGACGGCACGGGGCACTACCTGTGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||| | ||||||||||||||||| |||||||| ||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
   <Hit_id>gi|523580045|ref|NM_001278767.1|</Hit_id>
   <Hit_def>Sus scrofa GATA binding protein 1 (GATA1), mRNA &gt;gi|459359835|gb|KC207688.1| Sus scrofa GATA 1 protein (GATA1) mRNA, complete cds</Hit_def>
   <Hit_accession>NM_001278767</Hit_accession>
@@ -1302,7 +1330,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>77.8047</Hsp_bit-score>
       <Hsp_score>39</Hsp_score>
-      <Hsp_evalue>1.01862e-09</Hsp_evalue>
+      <Hsp_evalue>1.04798e-09</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>805</Hsp_query-to>
       <Hsp_hit-from>919</Hsp_hit-from>
@@ -1320,7 +1348,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>35</Hit_num>
+  <Hit_num>36</Hit_num>
   <Hit_id>gi|288780370|dbj|AK349904.1|</Hit_id>
   <Hit_def>Sus scrofa mRNA, clone:SKNB10084F10, expressed in skin</Hit_def>
   <Hit_accession>AK349904</Hit_accession>
@@ -1330,7 +1358,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>77.8047</Hsp_bit-score>
       <Hsp_score>39</Hsp_score>
-      <Hsp_evalue>1.01862e-09</Hsp_evalue>
+      <Hsp_evalue>1.04798e-09</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>805</Hsp_query-to>
       <Hsp_hit-from>908</Hsp_hit-from>
@@ -1348,7 +1376,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>36</Hit_num>
+  <Hit_num>37</Hit_num>
   <Hit_id>gi|586485865|ref|XM_006873358.1|</Hit_id>
   <Hit_def>PREDICTED: Chrysochloris asiatica GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_006873358</Hit_accession>
@@ -1358,7 +1386,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>75.8223</Hsp_bit-score>
       <Hsp_score>38</Hsp_score>
-      <Hsp_evalue>4.02495e-09</Hsp_evalue>
+      <Hsp_evalue>4.14097e-09</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>586</Hsp_hit-from>
@@ -1376,7 +1404,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>37</Hit_num>
+  <Hit_num>38</Hit_num>
   <Hit_id>gi|1539176585|emb|LR132050.1|</Hit_id>
   <Hit_def>Anabas testudineus genome assembly, chromosome: 7</Hit_def>
   <Hit_accession>LR132050</Hit_accession>
@@ -1386,7 +1414,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>3877894</Hsp_hit-from>
@@ -1404,7 +1432,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>38</Hit_num>
+  <Hit_num>39</Hit_num>
   <Hit_id>gi|1539176554|emb|LR132010.1|</Hit_id>
   <Hit_def>Betta splendens genome assembly, chromosome: 7</Hit_def>
   <Hit_accession>LR132010</Hit_accession>
@@ -1414,7 +1442,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>14200817</Hsp_hit-from>
@@ -1433,7 +1461,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>46.087</Hsp_bit-score>
       <Hsp_score>23</Hsp_score>
-      <Hsp_evalue>3.59734</Hsp_evalue>
+      <Hsp_evalue>3.70103</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>749</Hsp_query-to>
       <Hsp_hit-from>455382</Hsp_hit-from>
@@ -1451,7 +1479,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>39</Hit_num>
+  <Hit_num>40</Hit_num>
   <Hit_id>gi|1516165607|ref|XM_027086952.1|</Hit_id>
   <Hit_def>PREDICTED: Lagenorhynchus obliquidens GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_027086952</Hit_accession>
@@ -1461,7 +1489,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>891</Hsp_hit-from>
@@ -1479,7 +1507,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>40</Hit_num>
+  <Hit_num>41</Hit_num>
   <Hit_id>gi|1475905058|ref|XM_026430440.1|</Hit_id>
   <Hit_def>PREDICTED: Frankliniella occidentalis GATA-binding factor A-like (LOC113211908), mRNA</Hit_def>
   <Hit_accession>XM_026430440</Hit_accession>
@@ -1489,7 +1517,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>844</Hsp_hit-from>
@@ -1507,7 +1535,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>41</Hit_num>
+  <Hit_num>42</Hit_num>
   <Hit_id>gi|1472990502|ref|XM_026367083.1|</Hit_id>
   <Hit_def>PREDICTED: Anabas testudineus GATA binding protein 5 (gata5), mRNA</Hit_def>
   <Hit_accession>XM_026367083</Hit_accession>
@@ -1517,7 +1545,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1011</Hsp_hit-from>
@@ -1535,7 +1563,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>42</Hit_num>
+  <Hit_num>43</Hit_num>
   <Hit_id>gi|1378860746|ref|XM_024750155.1|</Hit_id>
   <Hit_def>PREDICTED: Neophocaena asiaeorientalis asiaeorientalis GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_024750155</Hit_accession>
@@ -1545,7 +1573,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>605</Hsp_hit-from>
@@ -1563,7 +1591,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>43</Hit_num>
+  <Hit_num>44</Hit_num>
   <Hit_id>gi|1348495773|ref|XM_024128242.1|</Hit_id>
   <Hit_def>PREDICTED: Physeter catodon GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_024128242</Hit_accession>
@@ -1573,7 +1601,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>610</Hsp_hit-from>
@@ -1591,7 +1619,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>44</Hit_num>
+  <Hit_num>45</Hit_num>
   <Hit_id>gi|1343955243|ref|XM_023956400.1|</Hit_id>
   <Hit_def>PREDICTED: Oryzias latipes GATA binding protein 5 (gata5), transcript variant X4, mRNA</Hit_def>
   <Hit_accession>XM_023956400</Hit_accession>
@@ -1601,7 +1629,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>903</Hsp_hit-from>
@@ -1619,7 +1647,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>45</Hit_num>
+  <Hit_num>46</Hit_num>
   <Hit_id>gi|1343955241|ref|XM_023956399.1|</Hit_id>
   <Hit_def>PREDICTED: Oryzias latipes GATA binding protein 5 (gata5), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_023956399</Hit_accession>
@@ -1629,7 +1657,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>905</Hsp_hit-from>
@@ -1647,7 +1675,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>46</Hit_num>
+  <Hit_num>47</Hit_num>
   <Hit_id>gi|1343955239|ref|XM_023956398.1|</Hit_id>
   <Hit_def>PREDICTED: Oryzias latipes GATA binding protein 5 (gata5), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_023956398</Hit_accession>
@@ -1657,7 +1685,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1453</Hsp_hit-from>
@@ -1675,7 +1703,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>47</Hit_num>
+  <Hit_num>48</Hit_num>
   <Hit_id>gi|1343955237|ref|XM_023956397.1|</Hit_id>
   <Hit_def>PREDICTED: Oryzias latipes GATA binding protein 5 (gata5), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_023956397</Hit_accession>
@@ -1685,7 +1713,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>904</Hsp_hit-from>
@@ -1703,7 +1731,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>48</Hit_num>
+  <Hit_num>49</Hit_num>
   <Hit_id>gi|1328727137|ref|XM_010587119.2|</Hit_id>
   <Hit_def>PREDICTED: Loxodonta africana GATA binding protein 6 (GATA6), mRNA</Hit_def>
   <Hit_accession>XM_010587119</Hit_accession>
@@ -1713,7 +1741,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>547</Hsp_hit-from>
@@ -1731,7 +1759,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>49</Hit_num>
+  <Hit_num>50</Hit_num>
   <Hit_id>gi|1317093313|ref|XM_023401906.1|</Hit_id>
   <Hit_def>PREDICTED: Seriola lalandi dorsalis GATA binding protein 5 (gata5), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_023401906</Hit_accession>
@@ -1741,7 +1769,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>969</Hsp_hit-from>
@@ -1759,7 +1787,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>50</Hit_num>
+  <Hit_num>51</Hit_num>
   <Hit_id>gi|1317093311|ref|XM_023401905.1|</Hit_id>
   <Hit_def>PREDICTED: Seriola lalandi dorsalis GATA binding protein 5 (gata5), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_023401905</Hit_accession>
@@ -1769,7 +1797,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>974</Hsp_hit-from>
@@ -1787,7 +1815,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>51</Hit_num>
+  <Hit_num>52</Hit_num>
   <Hit_id>gi|1246213824|ref|XM_022597632.1|</Hit_id>
   <Hit_def>PREDICTED: Delphinapterus leucas GATA binding protein 5 (GATA5), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_022597632</Hit_accession>
@@ -1797,7 +1825,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>922</Hsp_hit-from>
@@ -1815,7 +1843,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>52</Hit_num>
+  <Hit_num>53</Hit_num>
   <Hit_id>gi|1246213822|ref|XM_022597631.1|</Hit_id>
   <Hit_def>PREDICTED: Delphinapterus leucas GATA binding protein 5 (GATA5), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_022597631</Hit_accession>
@@ -1825,7 +1853,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>667</Hsp_hit-from>
@@ -1843,7 +1871,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>53</Hit_num>
+  <Hit_num>54</Hit_num>
   <Hit_id>gi|1220479411|gb|CP020627.1|</Hit_id>
   <Hit_def>Oryzias latipes strain HSOK chromosome 7</Hit_def>
   <Hit_accession>CP020627</Hit_accession>
@@ -1853,7 +1881,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>5804137</Hsp_hit-from>
@@ -1871,7 +1899,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>54</Hit_num>
+  <Hit_num>55</Hit_num>
   <Hit_id>gi|1220469771|gb|CP020785.1|</Hit_id>
   <Hit_def>Oryzias latipes strain HNI chromosome 7</Hit_def>
   <Hit_accession>CP020785</Hit_accession>
@@ -1881,7 +1909,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>5226637</Hsp_hit-from>
@@ -1899,7 +1927,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>55</Hit_num>
+  <Hit_num>56</Hit_num>
   <Hit_id>gi|1220465040|gb|CP020671.1|</Hit_id>
   <Hit_def>Oryzias latipes strain Hd-rR chromosome 7 sequence</Hit_def>
   <Hit_accession>CP020671</Hit_accession>
@@ -1909,7 +1937,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>5265053</Hsp_hit-from>
@@ -1927,7 +1955,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>56</Hit_num>
+  <Hit_num>57</Hit_num>
   <Hit_id>gi|1056738350|tpe|HF933213.1|</Hit_id>
   <Hit_def>TPA_asm: Oryzias latipes strain Hd-rR, complete genome assembly, chromosome 7</Hit_def>
   <Hit_accession>HF933213</Hit_accession>
@@ -1937,7 +1965,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>5128243</Hsp_hit-from>
@@ -1955,7 +1983,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>57</Hit_num>
+  <Hit_num>58</Hit_num>
   <Hit_id>gi|1048481727|ref|XM_017663741.1|</Hit_id>
   <Hit_def>PREDICTED: Manis javanica GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_017663741</Hit_accession>
@@ -1965,7 +1993,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>496</Hsp_hit-from>
@@ -1983,7 +2011,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>58</Hit_num>
+  <Hit_num>59</Hit_num>
   <Hit_id>gi|821110454|ref|XM_004456832.2|</Hit_id>
   <Hit_def>PREDICTED: Dasypus novemcinctus GATA binding protein 5 (GATA5), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_004456832</Hit_accession>
@@ -1993,7 +2021,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>580</Hsp_hit-from>
@@ -2011,7 +2039,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>59</Hit_num>
+  <Hit_num>60</Hit_num>
   <Hit_id>gi|634833511|ref|XM_007935592.1|</Hit_id>
   <Hit_def>PREDICTED: Orycteropus afer afer GATA binding protein 6 (GATA6), mRNA</Hit_def>
   <Hit_accession>XM_007935592</Hit_accession>
@@ -2021,7 +2049,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1346</Hsp_hit-from>
@@ -2039,7 +2067,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>60</Hit_num>
+  <Hit_num>61</Hit_num>
   <Hit_id>gi|602700715|ref|XM_007462256.1|</Hit_id>
   <Hit_def>PREDICTED: Lipotes vexillifer GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_007462256</Hit_accession>
@@ -2049,7 +2077,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>897</Hsp_hit-from>
@@ -2067,7 +2095,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>61</Hit_num>
+  <Hit_num>62</Hit_num>
   <Hit_id>gi|488530231|ref|XM_004456831.1|</Hit_id>
   <Hit_def>PREDICTED: Dasypus novemcinctus GATA binding protein 5 (GATA5), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_004456831</Hit_accession>
@@ -2077,7 +2105,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>547</Hsp_hit-from>
@@ -2095,7 +2123,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>62</Hit_num>
+  <Hit_num>63</Hit_num>
   <Hit_id>gi|466070872|ref|XM_004282337.1|</Hit_id>
   <Hit_def>PREDICTED: Orcinus orca GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_004282337</Hit_accession>
@@ -2105,7 +2133,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>73.84</Hsp_bit-score>
       <Hsp_score>37</Hsp_score>
-      <Hsp_evalue>1.59041e-08</Hsp_evalue>
+      <Hsp_evalue>1.63625e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>888</Hsp_hit-from>
@@ -2123,7 +2151,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>63</Hit_num>
+  <Hit_num>64</Hit_num>
   <Hit_id>gi|1370964765|emb|LT963427.1|</Hit_id>
   <Hit_def>Plasmodium sp. gorilla clade G1 genome assembly, chromosome: 14</Hit_def>
   <Hit_accession>LT963427</Hit_accession>
@@ -2133,7 +2161,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>1330</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>57238</Hsp_hit-from>
@@ -2151,7 +2179,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>64</Hit_num>
+  <Hit_num>65</Hit_num>
   <Hit_id>gi|1316075077|ref|XM_023325211.1|</Hit_id>
   <Hit_def>PREDICTED: Xiphophorus maculatus GATA-binding factor 1-B-like (LOC102221305), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_023325211</Hit_accession>
@@ -2161,7 +2189,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>836</Hsp_hit-from>
@@ -2179,7 +2207,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>65</Hit_num>
+  <Hit_num>66</Hit_num>
   <Hit_id>gi|1316075076|ref|XM_005800620.2|</Hit_id>
   <Hit_def>PREDICTED: Xiphophorus maculatus GATA-binding factor 1-B-like (LOC102221305), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_005800620</Hit_accession>
@@ -2189,7 +2217,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>870</Hsp_hit-from>
@@ -2207,7 +2235,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>66</Hit_num>
+  <Hit_num>67</Hit_num>
   <Hit_id>gi|1149820270|ref|XM_012772913.2|</Hit_id>
   <Hit_def>PREDICTED: Microcebus murinus GATA binding protein 5 (GATA5), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_012772913</Hit_accession>
@@ -2217,7 +2245,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>527</Hsp_query-to>
       <Hsp_hit-from>823</Hsp_hit-from>
@@ -2235,7 +2263,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>67</Hit_num>
+  <Hit_num>68</Hit_num>
   <Hit_id>gi|1149820267|ref|XM_012772912.2|</Hit_id>
   <Hit_def>PREDICTED: Microcebus murinus GATA binding protein 5 (GATA5), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_012772912</Hit_accession>
@@ -2245,7 +2273,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>527</Hsp_query-to>
       <Hsp_hit-from>726</Hsp_hit-from>
@@ -2263,7 +2291,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>68</Hit_num>
+  <Hit_num>69</Hit_num>
   <Hit_id>gi|1046908423|ref|XM_017602255.1|</Hit_id>
   <Hit_def>PREDICTED: Rattus norvegicus erythroid transcription factor (LOC108348091), mRNA</Hit_def>
   <Hit_accession>XM_017602255</Hit_accession>
@@ -2273,7 +2301,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>721</Hsp_query-from>
       <Hsp_query-to>788</Hsp_query-to>
       <Hsp_hit-from>978</Hsp_hit-from>
@@ -2291,7 +2319,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>69</Hit_num>
+  <Hit_num>70</Hit_num>
   <Hit_id>gi|6978876|ref|NM_012764.1|</Hit_id>
   <Hit_def>Rattus norvegicus GATA binding protein 1 (Gata1), mRNA &gt;gi|644895|dbj|D13518.1|RATGATA1 Rattus norvegicus mRNA for transcription factor GATA-1, complete cds</Hit_def>
   <Hit_accession>NM_012764</Hit_accession>
@@ -2301,7 +2329,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>71.8576</Hsp_bit-score>
       <Hsp_score>36</Hsp_score>
-      <Hsp_evalue>6.2843e-08</Hsp_evalue>
+      <Hsp_evalue>6.46545e-08</Hsp_evalue>
       <Hsp_query-from>721</Hsp_query-from>
       <Hsp_query-to>788</Hsp_query-to>
       <Hsp_hit-from>957</Hsp_hit-from>
@@ -2319,7 +2347,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>70</Hit_num>
+  <Hit_num>71</Hit_num>
   <Hit_id>gi|1533635242|emb|LR131440.1|</Hit_id>
   <Hit_def>Plasmodium falciparum genome assembly, chromosome: 7</Hit_def>
   <Hit_accession>LR131440</Hit_accession>
@@ -2329,7 +2357,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1330</Hsp_query-from>
       <Hsp_query-to>1372</Hsp_query-to>
       <Hsp_hit-from>950654</Hsp_hit-from>
@@ -2347,7 +2375,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>71</Hit_num>
+  <Hit_num>72</Hit_num>
   <Hit_id>gi|1533619419|emb|LR131360.1|</Hit_id>
   <Hit_def>Plasmodium falciparum genome assembly, chromosome: 7</Hit_def>
   <Hit_accession>LR131360</Hit_accession>
@@ -2357,7 +2385,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1330</Hsp_query-from>
       <Hsp_query-to>1372</Hsp_query-to>
       <Hsp_hit-from>880523</Hsp_hit-from>
@@ -2375,7 +2403,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>72</Hit_num>
+  <Hit_num>73</Hit_num>
   <Hit_id>gi|1533614851|emb|LR131328.1|</Hit_id>
   <Hit_def>Plasmodium falciparum strain IT genome assembly, chromosome: 7</Hit_def>
   <Hit_accession>LR131328</Hit_accession>
@@ -2385,7 +2413,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1330</Hsp_query-from>
       <Hsp_query-to>1372</Hsp_query-to>
       <Hsp_hit-from>952041</Hsp_hit-from>
@@ -2403,7 +2431,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>73</Hit_num>
+  <Hit_num>74</Hit_num>
   <Hit_id>gi|1370980673|emb|LT969552.1|</Hit_id>
   <Hit_def>Plasmodium sp. gorilla clade G3 genome assembly, chromosome: 3</Hit_def>
   <Hit_accession>LT969552</Hit_accession>
@@ -2413,7 +2441,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1331</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>338164</Hsp_hit-from>
@@ -2431,7 +2459,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>74</Hit_num>
+  <Hit_num>75</Hit_num>
   <Hit_id>gi|1212203201|ref|XM_021696660.1|</Hit_id>
   <Hit_def>PREDICTED: Neomonachus schauinslandi GATA binding protein 3 (GATA3), transcript variant X4, mRNA</Hit_def>
   <Hit_accession>XM_021696660</Hit_accession>
@@ -2441,7 +2469,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>490</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1249</Hsp_hit-from>
@@ -2459,7 +2487,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>75</Hit_num>
+  <Hit_num>76</Hit_num>
   <Hit_id>gi|1212203199|ref|XM_021696659.1|</Hit_id>
   <Hit_def>PREDICTED: Neomonachus schauinslandi GATA binding protein 3 (GATA3), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_021696659</Hit_accession>
@@ -2469,7 +2497,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>490</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1246</Hsp_hit-from>
@@ -2487,7 +2515,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>76</Hit_num>
+  <Hit_num>77</Hit_num>
   <Hit_id>gi|1212203197|ref|XM_021696658.1|</Hit_id>
   <Hit_def>PREDICTED: Neomonachus schauinslandi GATA binding protein 3 (GATA3), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_021696658</Hit_accession>
@@ -2497,7 +2525,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>490</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1429</Hsp_hit-from>
@@ -2515,7 +2543,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>77</Hit_num>
+  <Hit_num>78</Hit_num>
   <Hit_id>gi|1212203195|ref|XM_021696657.1|</Hit_id>
   <Hit_def>PREDICTED: Neomonachus schauinslandi GATA binding protein 3 (GATA3), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_021696657</Hit_accession>
@@ -2525,7 +2553,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>490</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1249</Hsp_hit-from>
@@ -2543,7 +2571,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>78</Hit_num>
+  <Hit_num>79</Hit_num>
   <Hit_id>gi|1098996946|ref|XM_015616149.2|</Hit_id>
   <Hit_def>PREDICTED: Parus major cyclin dependent kinase 20 (CDK20), mRNA</Hit_def>
   <Hit_accession>XM_015616149</Hit_accession>
@@ -2553,7 +2581,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>465</Hsp_query-from>
       <Hsp_query-to>527</Hsp_query-to>
       <Hsp_hit-from>2115</Hsp_hit-from>
@@ -2571,7 +2599,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>79</Hit_num>
+  <Hit_num>80</Hit_num>
   <Hit_id>gi|1062944825|ref|XM_018038432.1|</Hit_id>
   <Hit_def>PREDICTED: Capra hircus GATA binding protein 2 (GATA2), mRNA</Hit_def>
   <Hit_accession>XM_018038432</Hit_accession>
@@ -2581,7 +2609,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1112</Hsp_hit-from>
@@ -2599,7 +2627,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>80</Hit_num>
+  <Hit_num>81</Hit_num>
   <Hit_id>gi|1040235695|ref|XM_002719899.3|</Hit_id>
   <Hit_def>PREDICTED: Oryctolagus cuniculus GATA binding protein 1 (GATA1), mRNA</Hit_def>
   <Hit_accession>XM_002719899</Hit_accession>
@@ -2609,7 +2637,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>721</Hsp_query-from>
       <Hsp_query-to>803</Hsp_query-to>
       <Hsp_hit-from>966</Hsp_hit-from>
@@ -2627,7 +2655,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>81</Hit_num>
+  <Hit_num>82</Hit_num>
   <Hit_id>gi|965796509|ref|XM_015090348.1|</Hit_id>
   <Hit_def>PREDICTED: Ovis aries musimon GATA binding protein 2 (GATA2), mRNA</Hit_def>
   <Hit_accession>XM_015090348</Hit_accession>
@@ -2637,7 +2665,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1752</Hsp_hit-from>
@@ -2655,7 +2683,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>82</Hit_num>
+  <Hit_num>83</Hit_num>
   <Hit_id>gi|675870059|ref|XM_009022342.1|</Hit_id>
   <Hit_def>Helobdella robusta hypothetical protein partial mRNA</Hit_def>
   <Hit_accession>XM_009022342</Hit_accession>
@@ -2665,7 +2693,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1331</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>6124</Hsp_hit-from>
@@ -2683,7 +2711,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>83</Hit_num>
+  <Hit_num>84</Hit_num>
   <Hit_id>gi|342671950|dbj|AB612141.1|</Hit_id>
   <Hit_def>Ovis aries GATA2 mRNA for transcription factor GATA2, partial cds</Hit_def>
   <Hit_accession>AB612141</Hit_accession>
@@ -2693,7 +2721,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>440</Hsp_hit-from>
@@ -2711,7 +2739,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>84</Hit_num>
+  <Hit_num>85</Hit_num>
   <Hit_id>gi|105576856|gb|AC171137.2|</Hit_id>
   <Hit_def>Helobdella robusta clone CH306-1A8, complete sequence</Hit_def>
   <Hit_accession>AC171137</Hit_accession>
@@ -2721,7 +2749,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1331</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>63457</Hsp_hit-from>
@@ -2739,7 +2767,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>85</Hit_num>
+  <Hit_num>86</Hit_num>
   <Hit_id>gi|93352589|gb|AC171129.2|</Hit_id>
   <Hit_def>Helobdella robusta clone CH306-1A11, complete sequence</Hit_def>
   <Hit_accession>AC171129</Hit_accession>
@@ -2749,7 +2777,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>69.8753</Hsp_bit-score>
       <Hsp_score>35</Hsp_score>
-      <Hsp_evalue>2.48316e-07</Hsp_evalue>
+      <Hsp_evalue>2.55474e-07</Hsp_evalue>
       <Hsp_query-from>1331</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>86974</Hsp_hit-from>
@@ -2768,7 +2796,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>59.9635</Hsp_bit-score>
       <Hsp_score>30</Hsp_score>
-      <Hsp_evalue>0.000239191</Hsp_evalue>
+      <Hsp_evalue>0.000246086</Hsp_evalue>
       <Hsp_query-from>1331</Hsp_query-from>
       <Hsp_query-to>1364</Hsp_query-to>
       <Hsp_hit-from>6459</Hsp_hit-from>
@@ -2786,7 +2814,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>86</Hit_num>
+  <Hit_num>87</Hit_num>
   <Hit_id>gi|1431907554|gb|CP030984.1|</Hit_id>
   <Hit_def>Arachis hypogaea cultivar Shitouqi chromosome A02</Hit_def>
   <Hit_accession>CP030984</Hit_accession>
@@ -2796,7 +2824,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>1328</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>33356532</Hsp_hit-from>
@@ -2815,7 +2843,7 @@
       <Hsp_num>2</Hsp_num>
       <Hsp_bit-score>59.9635</Hsp_bit-score>
       <Hsp_score>30</Hsp_score>
-      <Hsp_evalue>0.000239191</Hsp_evalue>
+      <Hsp_evalue>0.000246086</Hsp_evalue>
       <Hsp_query-from>1328</Hsp_query-from>
       <Hsp_query-to>1361</Hsp_query-to>
       <Hsp_hit-from>33496120</Hsp_hit-from>
@@ -2833,7 +2861,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>87</Hit_num>
+  <Hit_num>88</Hit_num>
   <Hit_id>gi|1391788431|ref|XM_025176874.1|</Hit_id>
   <Hit_def>PREDICTED: Python bivittatus GATA binding protein 1 (GATA1), transcript variant X4, mRNA</Hit_def>
   <Hit_accession>XM_025176874</Hit_accession>
@@ -2843,7 +2871,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>812</Hsp_query-to>
       <Hsp_hit-from>899</Hsp_hit-from>
@@ -2861,7 +2889,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>88</Hit_num>
+  <Hit_num>89</Hit_num>
   <Hit_id>gi|1391788429|ref|XM_025176866.1|</Hit_id>
   <Hit_def>PREDICTED: Python bivittatus GATA binding protein 1 (GATA1), transcript variant X3, mRNA</Hit_def>
   <Hit_accession>XM_025176866</Hit_accession>
@@ -2871,7 +2899,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>812</Hsp_query-to>
       <Hsp_hit-from>1622</Hsp_hit-from>
@@ -2889,7 +2917,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>89</Hit_num>
+  <Hit_num>90</Hit_num>
   <Hit_id>gi|1391788427|ref|XM_025176861.1|</Hit_id>
   <Hit_def>PREDICTED: Python bivittatus GATA binding protein 1 (GATA1), transcript variant X2, mRNA</Hit_def>
   <Hit_accession>XM_025176861</Hit_accession>
@@ -2899,7 +2927,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>812</Hsp_query-to>
       <Hsp_hit-from>1539</Hsp_hit-from>
@@ -2917,7 +2945,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>90</Hit_num>
+  <Hit_num>91</Hit_num>
   <Hit_id>gi|1391788426|ref|XM_007422212.2|</Hit_id>
   <Hit_def>PREDICTED: Python bivittatus GATA binding protein 1 (GATA1), transcript variant X1, mRNA</Hit_def>
   <Hit_accession>XM_007422212</Hit_accession>
@@ -2927,7 +2955,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>719</Hsp_query-from>
       <Hsp_query-to>812</Hsp_query-to>
       <Hsp_hit-from>1022</Hsp_hit-from>
@@ -2945,7 +2973,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>91</Hit_num>
+  <Hit_num>92</Hit_num>
   <Hit_id>gi|1370992152|emb|LT990237.1|</Hit_id>
   <Hit_def>Plasmodium sp. DRC-Itaito genome assembly, chromosome: 8</Hit_def>
   <Hit_accession>LT990237</Hit_accession>
@@ -2955,7 +2983,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>1328</Hsp_query-from>
       <Hsp_query-to>1365</Hsp_query-to>
       <Hsp_hit-from>1100538</Hsp_hit-from>
@@ -2973,7 +3001,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>92</Hit_num>
+  <Hit_num>93</Hit_num>
   <Hit_id>gi|970728031|ref|XM_006220238.2|</Hit_id>
   <Hit_def>PREDICTED: Vicugna pacos GATA binding protein 5 (GATA5), partial mRNA</Hit_def>
   <Hit_accession>XM_006220238</Hit_accession>
@@ -2983,7 +3011,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>289</Hsp_hit-from>
@@ -3001,7 +3029,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>93</Hit_num>
+  <Hit_num>94</Hit_num>
   <Hit_id>gi|946609517|ref|XM_014551750.1|</Hit_id>
   <Hit_def>PREDICTED: Camelus ferus GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_014551750</Hit_accession>
@@ -3011,7 +3039,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1048</Hsp_hit-from>
@@ -3029,7 +3057,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>94</Hit_num>
+  <Hit_num>95</Hit_num>
   <Hit_id>gi|744587977|ref|XM_010987875.1|</Hit_id>
   <Hit_def>PREDICTED: Camelus dromedarius GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_010987875</Hit_accession>
@@ -3039,7 +3067,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>934</Hsp_hit-from>
@@ -3057,7 +3085,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>95</Hit_num>
+  <Hit_num>96</Hit_num>
   <Hit_id>gi|743717936|ref|XM_010954376.1|</Hit_id>
   <Hit_def>PREDICTED: Camelus bactrianus GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_010954376</Hit_accession>
@@ -3067,7 +3095,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>1036</Hsp_hit-from>
@@ -3085,7 +3113,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>96</Hit_num>
+  <Hit_num>97</Hit_num>
   <Hit_id>gi|641730200|ref|XM_008157107.1|</Hit_id>
   <Hit_def>PREDICTED: Eptesicus fuscus GATA binding protein 5 (GATA5), mRNA</Hit_def>
   <Hit_accession>XM_008157107</Hit_accession>
@@ -3095,7 +3123,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>619</Hsp_hit-from>
@@ -3113,7 +3141,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>97</Hit_num>
+  <Hit_num>98</Hit_num>
   <Hit_id>gi|594675316|ref|XM_007185427.1|</Hit_id>
   <Hit_def>PREDICTED: Balaenoptera acutorostrata scammoni uncharacterized LOC103009641 (LOC103009641), mRNA</Hit_def>
   <Hit_accession>XM_007185427</Hit_accession>
@@ -3123,7 +3151,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>487</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
       <Hsp_hit-from>2485</Hsp_hit-from>
@@ -3141,7 +3169,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>98</Hit_num>
+  <Hit_num>99</Hit_num>
   <Hit_id>gi|170060990|ref|XM_001866010.1|</Hit_id>
   <Hit_def>Culex quinquefasciatus GATA-binding factor-C, mRNA</Hit_def>
   <Hit_accession>XM_001866010</Hit_accession>
@@ -3151,7 +3179,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>67.8929</Hsp_bit-score>
       <Hsp_score>34</Hsp_score>
-      <Hsp_evalue>9.81189e-07</Hsp_evalue>
+      <Hsp_evalue>1.00947e-06</Hsp_evalue>
       <Hsp_query-from>466</Hsp_query-from>
       <Hsp_query-to>527</Hsp_query-to>
       <Hsp_hit-from>772</Hsp_hit-from>
@@ -3169,21 +3197,21 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>99</Hit_num>
-  <Hit_id>gi|1547242198|ref|NG_032677.2|</Hit_id>
-  <Hit_def>Homo sapiens GATA binding protein 6 (GATA6), RefSeqGene on chromosome 18</Hit_def>
-  <Hit_accession>NG_032677</Hit_accession>
-  <Hit_len>40092</Hit_len>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|1562425621|ref|XM_027935751.1|</Hit_id>
+  <Hit_def>PREDICTED: Marmota flaviventris GATA binding protein 6 (Gata6), mRNA</Hit_def>
+  <Hit_accession>XM_027935751</Hit_accession>
+  <Hit_len>1954</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>65.9106</Hsp_bit-score>
       <Hsp_score>33</Hsp_score>
-      <Hsp_evalue>3.87704e-06</Hsp_evalue>
+      <Hsp_evalue>3.9888e-06</Hsp_evalue>
       <Hsp_query-from>484</Hsp_query-from>
       <Hsp_query-to>528</Hsp_query-to>
-      <Hsp_hit-from>12575</Hsp_hit-from>
-      <Hsp_hit-to>12619</Hsp_hit-to>
+      <Hsp_hit-from>1323</Hsp_hit-from>
+      <Hsp_hit-to>1367</Hsp_hit-to>
       <Hsp_query-frame>1</Hsp_query-frame>
       <Hsp_hit-frame>1</Hsp_hit-frame>
       <Hsp_identity>42</Hsp_identity>
@@ -3196,39 +3224,11 @@
     </Hsp>
   </Hit_hsps>
 </Hit>
-<Hit>
-  <Hit_num>100</Hit_num>
-  <Hit_id>gi|1542971935|ref|XM_027533196.1|</Hit_id>
-  <Hit_def>PREDICTED: Bos indicus x Bos taurus GATA binding protein 1 (GATA1), mRNA</Hit_def>
-  <Hit_accession>XM_027533196</Hit_accession>
-  <Hit_len>1514</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>65.9106</Hsp_bit-score>
-      <Hsp_score>33</Hsp_score>
-      <Hsp_evalue>3.87704e-06</Hsp_evalue>
-      <Hsp_query-from>719</Hsp_query-from>
-      <Hsp_query-to>803</Hsp_query-to>
-      <Hsp_hit-from>962</Hsp_hit-from>
-      <Hsp_hit-to>1046</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>72</Hsp_identity>
-      <Hsp_positive>72</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>85</Hsp_align-len>
-      <Hsp_qseq>ACGCCTGCGGCCTCTACTACAAACTGCACCAAGTGAACCGCCCCCTCACGATGCGCAAAGACGGAATCCAAACCCGAAACCGCAA</Hsp_qseq>
-      <Hsp_hseq>ACGCCTGCGGCCTCTACTACAAACTACACCAGGTGAACCGACCACTGACCATGAGGAAGGATGGTATCCAGACTCGAAACCGCAA</Hsp_hseq>
-      <Hsp_midline>||||||||||||||||||||||||| ||||| |||||||| || || || ||| | || || || ||||| || |||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>49985097</Statistics_db-num>
-      <Statistics_db-len>191944857236</Statistics_db-len>
+      <Statistics_db-num>50392116</Statistics_db-num>
+      <Statistics_db-len>197451948575</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.710602795216363</Statistics_kappa>

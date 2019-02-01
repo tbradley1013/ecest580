@@ -1,0 +1,3793 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_79819</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1435</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_79819</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>1435</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|120955|sp|P17678.1|GATA1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Erythroid transcription factor; AltName: Full=Eryf1; AltName: Full=GATA-binding factor 1; Short=GATA-1; AltName: Full=NF-E1 DNA-binding protein; Short=NF-E1a</Hit_def>
+  <Hit_accession>P17678</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>3.90802e-123</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>1074</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MEFVALGGPDAGSPTPFPDXXXXXXXXXXXXXXXXXXXXXSYPPSGRVSLVPWADTGTLGTPQWVPPATQMEPPHYLEXXXXXXXXXXXXXXXXXXXXXXXXXXCEARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQSDALYALGPVVLSGHFLPXXXXXXXXXXXXXXYTAPPGLSPQI</Hsp_qseq>
+      <Hsp_hseq>MEFVALGGPDAGSPTPFPDEAGAFLGLGGGERTEAGGLLASYPPSGRVSLVPWADTGTLGTPQWVPPATQMEPPHYLELLQPPRGSPPHPSSGPLLPLSSGPPPCEARECV----NCGATATPLWRRDGTGHYLCN---ACGLYHRLNGQNRPLIRPKKRLLVSKRAGTVCS----NCQTSTTTLWRRSPMGDPVCN---ACGLYYKLHQVNRPLTMRKDGIQTRNRKVSSKGKKRRPPGGGNPSATAGGGAPMGGGGDPSMPPPPPPPAAAPPQSDALYALGPVVLSGHFLPFGNSGGFFGGGAGGYTAPPGLSPQI</Hsp_hseq>
+      <Hsp_midline>MEFVALGGPDAGSPTPFPDEAGAFLGLGGGERTEAGGLLASYPPSGRVSLVPWADTGTLGTPQWVPPATQMEPPHYLELLQPPRGSPPHPSSGPLLPLSSGPPPCEARECV    NCGATATPLWRRDGTGHYLCN   ACGLYHRLNGQNRPLIRPKKRL VSKRAGTVCS    NCQTSTTTLWRRSPMGDPVCN   ACGLYYKLHQVNRPLTMRKDGIQTRNRKVSSKGKKRRPPGGGNPSATAGGGAPMGGGGDPSMPPPPPPPAAAPPQSDALYALGPVVLSGHFLPFGNSGGFFGGGAGGYTAPPGLSPQI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|120956|sp|P15976.1|GATA1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Erythroid transcription factor; AltName: Full=Eryf1; AltName: Full=GATA-binding factor 1; Short=GATA-1; Short=GF-1; AltName: Full=NF-E1 DNA-binding protein</Hit_def>
+  <Hit_accession>P15976</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.3008e-58</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>CEARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>CEARECV----NCGATATPLWRRDRTGHYLCN---ACGLYHKMNGQNRPLIRPKKRLIVSKRAGTQCT----NCQTTTTTLWRRNASGDPVCN---ACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_hseq>
+      <Hsp_midline>CEARECV    NCGATATPLWRRD TGHYLCN   ACGLYH++NGQNRPLIRPKKRL VSKRAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1169842|sp|P43429.1|GATA1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Erythroid transcription factor; AltName: Full=Eryf1; AltName: Full=GATA-binding factor 1; Short=GATA-1; Short=GF-1; AltName: Full=NF-E1 DNA-binding protein</Hit_def>
+  <Hit_accession>P43429</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>2.54981e-58</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>CEARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>CEARECV----NCGATATPLWRRDRTGHYLCN---ACGLYHKMNGQNRPLIRPKKRMIVSKRAGTQCT----NCQTTTTTLWRRNASGDPVCN---ACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_hseq>
+      <Hsp_midline>CEARECV    NCGATATPLWRRD TGHYLCN   ACGLYH++NGQNRPLIRPKKR+ VSKRAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|120957|sp|P17679.1|GATA1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Erythroid transcription factor; AltName: Full=Eryf1; AltName: Full=GATA-binding factor 1; Short=GATA-1; Short=GF-1; AltName: Full=NF-E1 DNA-binding protein</Hit_def>
+  <Hit_accession>P17679</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>9.7903e-58</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>CEARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>CEARECV----NCGATATPLWRRDRTGHYLCN---ACGLYHKMNGQNRPLIRPKKRMIVSKRAGTQCT----NCQTTTTTLWRRNASGDPVCN---ACGLYFKLHQVNRPLTMRKDGIQTRNRK</Hsp_hseq>
+      <Hsp_midline>CEARECV    NCGATATPLWRRD TGHYLCN   ACGLYH++NGQNRPLIRPKKR+ VSKRAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLY+KLHQVNRPLTMRKDGIQTRNRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|120966|sp|P23767.1|GAT1A_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 1-A; AltName: Full=Transcription factor xGATA-1A</Hit_def>
+  <Hit_accession>P23767</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>1.12126e-54</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EDRECV----NCGATVTPLWRRDMSGHYLCN---ACGLYHKMNGQNRPLIRPKKRLIVSKRAGTQCS----NCHTSTTTLWRRNASGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKV</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT TPLWRRD +GHYLCN   ACGLYH++NGQNRPLIRPKKRL VSKRAGT CS    NC TSTTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|120960|sp|P23770.1|GATA2_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 2; Short=GATA-2; AltName: Full=Transcription factor xGATA-2</Hit_def>
+  <Hit_accession>P23770</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.76839e-54</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATATPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTCCA----NCQTSTTTLWRRNANGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGATATPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQTSTTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|120969|sp|P23768.1|GAT1B_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 1-B; AltName: Full=Transcription factor xGATA-1B</Hit_def>
+  <Hit_accession>P23768</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>4.89721e-54</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EDRECV----NCGATVTPLWRRDLSGHYLCN---ACGLYHKMNGQNRPLIRPKKRLIISKRAGTQCS----NCHTSTTTLWRRNAGGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKV</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT TPLWRRD +GHYLCN   ACGLYH++NGQNRPLIRPKKRL +SKRAGT CS    NC TSTTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|120958|sp|P23824.1|GATA2_CHICK</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 2; Short=GATA-2; AltName: Full=Transcription factor NF-E1b</Hit_def>
+  <Hit_accession>P23824</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.02165e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATATPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTCCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGATATPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|21264417|sp|O09100.2|GATA2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Endothelial transcription factor GATA-2; AltName: Full=GATA-binding protein 2</Hit_def>
+  <Hit_accession>O09100</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.37574e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATATPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTCCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGATATPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|62286680|sp|Q924Y4.1|GATA2_RAT</Hit_id>
+  <Hit_def>RecName: Full=Endothelial transcription factor GATA-2; AltName: Full=GATA-binding protein 2</Hit_def>
+  <Hit_accession>Q924Y4</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.37574e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATATPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTCCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGATATPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|229462971|sp|P23769.3|GATA2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Endothelial transcription factor GATA-2; AltName: Full=GATA-binding protein 2</Hit_def>
+  <Hit_accession>P23769</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.37574e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATATPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTCCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGATATPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|120964|sp|P23773.1|GATA3_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 3; AltName: Full=Transcription factor xGATA-3</Hit_def>
+  <Hit_accession>P23773</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.722e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|3183010|sp|Q91428.1|GATA3_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-3; AltName: Full=GATA-binding factor 3</Hit_def>
+  <Hit_accession>Q91428</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.91295e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|120963|sp|P23772.1|GATA3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Trans-acting T-cell-specific transcription factor GATA-3; AltName: Full=GATA-binding factor 3</Hit_def>
+  <Hit_accession>P23772</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>3.25866e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|120961|sp|P23825.1|GATA3_CHICK</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 3; Short=GATA-3; AltName: Full=Transcription factor NF-E1c</Hit_def>
+  <Hit_accession>P23825</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>3.33215e-53</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|120962|sp|P23771.1|GATA3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Trans-acting T-cell-specific transcription factor GATA-3; AltName: Full=GATA-binding factor 3</Hit_def>
+  <Hit_accession>P23771</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.72226e-52</Hsp_evalue>
+      <Hsp_query-from>442</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>RECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.58419e-05</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>ARRAGTSCANCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNR</Hsp_hseq>
+      <Hsp_midline>AR    +  NC  T T LWRR+  G  +CN   ACGLY++L+  NRPL   K+ ++   R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000454989</Hsp_evalue>
+      <Hsp_query-from>616</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>KARSSTGRECVNCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARR</Hsp_hseq>
+      <Hsp_midline>+A +    E  NC  ++T LWRR   G  +CN   ACGLY+K++  NRPL   K  +    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|122132376|sp|Q08DV0.1|GATA3_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Trans-acting T-cell-specific transcription factor GATA-3; AltName: Full=GATA-binding factor 3</Hit_def>
+  <Hit_accession>Q08DV0</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.72226e-52</Hsp_evalue>
+      <Hsp_query-from>442</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>RECV----NCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARRAGTSCA----NCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNRKM</Hsp_hseq>
+      <Hsp_midline>RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLYH++NGQNRPLI+PK+RL  ++RAGT C+    NCQT+TTTLWRR+  GDPVCN   ACGLYYKLH +NRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.58419e-05</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>ARRAGTSCANCQTTTTTLWRRNANGDPVCN---ACGLYYKLHNINRPLTMKKEGIQTRNR</Hsp_hseq>
+      <Hsp_midline>AR    +  NC  T T LWRR+  G  +CN   ACGLY++L+  NRPL   K+ ++   R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000454989</Hsp_evalue>
+      <Hsp_query-from>616</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>KARSSTGRECVNCGATSTPLWRRDGTGHYLCN---ACGLYHKMNGQNRPLIKPKRRLSAARR</Hsp_hseq>
+      <Hsp_midline>+A +    E  NC  ++T LWRR   G  +CN   ACGLY+K++  NRPL   K  +    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|3183017|sp|P91623.1|GATAC_DROME</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor C; AltName: Full=Protein grain; AltName: Full=Transcription factor GATA-C; AltName: Full=dGATA-C</Hit_def>
+  <Hit_accession>P91623</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>3.1531e-49</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRV------SKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGATSTPLWRRDGTGHYLCN---ACGLYYKMNGQNRPLIKPKRRLTLQSLQSAAKRAGTSCA----NCKTTTTTLWRRNASGEPVCN---ACGLYYKLHNVNRPLTMKKEGIQTRNRKL</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGAT+TPLWRRDGTGHYLCN   ACGLY+++NGQNRPLI+PK+RL +      +KRAGT C+    NC+T+TTTLWRR+  G+PVCN   ACGLYYKLH VNRPLTM+K+GIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1169806|sp|P43695.1|GAT5A_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 5-A; AltName: Full=Transcription factor xGATA-5A</Hit_def>
+  <Hit_accession>P43695</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.65123e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGMNRPLIKPQKRLSSSRRAGLCCT----NCHTSTTTLWRRNSEGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P+KRL  S+RAG  C+    NC TSTTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1169847|sp|P46152.1|GATA4_RAT</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=DNA-binding protein GATA-GT2; AltName: Full=GATA-binding factor 4</Hit_def>
+  <Hit_accession>P46152</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.45655e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQRRLSASRRVGLSCA----NCQTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMRKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P++RL  S+R G  C+    NCQT+TTTLWRR+  G+PVCN   ACGLY KLH V RPL MRK+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|597439651|sp|Q08369.4|GATA4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=GATA-binding factor 4</Hit_def>
+  <Hit_accession>Q08369</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.50608e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQRRLSASRRVGLSCA----NCQTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMRKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P++RL  S+R G  C+    NCQT+TTTLWRR+  G+PVCN   ACGLY KLH V RPL MRK+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|122142221|sp|Q0Q0E4.1|GATA4_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=GATA-binding factor 4</Hit_def>
+  <Hit_accession>Q0Q0E4</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.55648e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQRRLSASRRVGLSCA----NCQTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMRKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P++RL  S+R G  C+    NCQT+TTTLWRR+  G+PVCN   ACGLY KLH V RPL MRK+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|215274105|sp|P43694.2|GATA4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=GATA-binding factor 4</Hit_def>
+  <Hit_accession>P43694</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.55648e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQRRLSASRRVGLSCA----NCQTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMRKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P++RL  S+R G  C+    NCQT+TTTLWRR+  G+PVCN   ACGLY KLH V RPL MRK+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1169807|sp|P43696.1|GAT5B_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 5-B; AltName: Full=Transcription factor xGATA-5B</Hit_def>
+  <Hit_accession>P43696</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>4.25728e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQKRLSSSRRAGLCCT----NCHTSTTTLWRRNSEGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P+KRL  S+RAG  C+    NC TSTTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|341940731|sp|P97489.2|GATA5_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-5; AltName: Full=GATA-binding factor 5</Hit_def>
+  <Hit_accession>P97489</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>6.0386e-45</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGALSTPLWRRDGTGHYLCN---ACGLYHKMNGVNRPLVRPQKRLSSSRRSGLCCS----NCHTATTTLWRRNSEGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPL+RP+KRL  S+R+G  CS    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|122140236|sp|Q3SZJ5.1|GATA5_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-5; AltName: Full=GATA-binding factor 5</Hit_def>
+  <Hit_accession>Q3SZJ5</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>1.14269e-44</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGALSTPLWRRDGTGHYLCN---ACGLYHKMNGVNRPLVRPQKRLSSSRRAGLCCT----NCHTTTTTLWRRNVDGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPL+RP+KRL  S+RAG  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2494683|sp|Q91677.1|GATA4_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=GATA-binding factor 4; Short=xGATA-4</Hit_def>
+  <Hit_accession>Q91677</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.2522e-44</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLIKPQRRLSASRRVGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P++RL  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1169844|sp|P43691.1|GATA4_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-4; AltName: Full=GATA-binding factor 4</Hit_def>
+  <Hit_accession>P43691</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.33525e-44</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAMSTPLWRRDGTGHYLCN---ACGLYHKMNGINRPLFKPQRRLSASRRVGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMRKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPL +P++RL  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL MRK+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|20138325|sp|Q9BWX5.1|GATA5_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-5; AltName: Full=GATA-binding factor 5</Hit_def>
+  <Hit_accession>Q9BWX5</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>2.69946e-44</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGALSTPLWRRDGTGHYLCN---ACGLYHKMNGVNRPLVRPQKRLSSSRRAGLCCT----NCHTTNTTLWRRNSEGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPL+RP+KRL  S+RAG  C+    NC T+ TTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1709699|sp|P52168.1|PNR_DROME</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor A; AltName: Full=Protein pannier; AltName: Full=Transcription factor GATA-A; AltName: Full=dGATA-A</Hit_def>
+  <Hit_accession>P52168</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>3.76441e-44</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRL---RVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAISTPLWRRDGTGHYLCN---ACGLYHKMNGMNRPLIKPSKRLVSATATRRMGLCCT----NCGTRTTTLWRRNNDGEPVCN---ACGLYYKLHGVNRPLAMRKDGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA +TPLWRRDGTGHYLCN   ACGLYH++NG NRPLI+P KRL     ++R G  C+    NC T TTTLWRR+  G+PVCN   ACGLYYKLH VNRPL MRKDGIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|3183008|sp|P70005.1|GAT6B_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 6-B; AltName: Full=Transcription factor xGATA-6b</Hit_def>
+  <Hit_accession>P70005</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.5783e-42</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSVQTPLWRRDGTGHYLCN---ACGLYSKMNGLSRPLIKPQKRVPSSRRIGLACA----NCHTTTTTLWRRNTEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGHYLCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2494686|sp|Q91678.1|GAT6A_XENLA</Hit_id>
+  <Hit_def>RecName: Full=GATA-binding factor 6-A; AltName: Full=Transcription factor xGATA-6a</Hit_def>
+  <Hit_accession>Q91678</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>6.35599e-42</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSVQTPLWRRDGTGHFLCN---ACGLYSKMNGLSRPLIKPQKRVPSSRRIGLACA----NCHTSTTTLWRRNTEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGH+LCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC TSTTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1730200|sp|P52167.1|GATAB_BOMMO</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor BCFI; AltName: Full=BmGATA-beta; Short=GATA-beta</Hit_def>
+  <Hit_accession>P52167</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>5.2762e-41</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>EGRECV----NCGAIHTPLWHRDGTGHYLCN---ACGLYNKMNGMNRPLKQPR-RLMAAKRPGTMCT----NCQTTATSLWRRNVQGETVCN---ACGLYFKLHNVNRPLTMKKDSIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E RECV    NCGA  TPLW RDGTGHYLCN   ACGLY+++NG NRPL +P+ RL  +KR GT+C+    NCQT+ T+LWRR+  G+ VCN   ACGLY+KLH VNRPLTM+KD IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1169848|sp|P43692.1|GATA5_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-5; AltName: Full=GATA-binding factor 5</Hit_def>
+  <Hit_accession>P43692</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>8.73468e-41</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>DGRECV----NCGAMSTPLWRKDGTGHYLCN---ACGLYHKMNGINRPL-KPQKRLSSSRRAGLCCT----NCHTTNTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKESIQTRKRK</Hsp_hseq>
+      <Hsp_midline>+ RECV    NCGA +TPLWR+DGTGHYLCN   ACGLYH++NG NRPL +P+KRL  S+RAG  C+    NC T+ TTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+ IQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1169849|sp|P43693.1|GATA6_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-6; AltName: Full=GATA-binding factor 6</Hit_def>
+  <Hit_accession>P43693</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.54683e-40</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSIQTPLWRRDGTGNYLCN---ACGLYTKMNGLSRPLIKPQKRVPSSRRLGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTG+YLCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|215274094|sp|P46153.2|GATA6_RAT</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-6; AltName: Full=DNA-binding protein GATA-GT2; AltName: Full=GATA-binding factor 6</Hit_def>
+  <Hit_accession>P46153</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.83092e-40</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSIQTPLWRRDGTGHYLCN---ACGLYSKMNGLSRPLIKPQKRVPSSRRLGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGHYLCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|215274120|sp|Q61169.3|GATA6_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-6; AltName: Full=GATA-binding factor 6</Hit_def>
+  <Hit_accession>Q61169</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.89513e-40</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSIQTPLWRRDGTGHYLCN---ACGLYSKMNGLSRPLIKPQKRVPSSRRLGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGHYLCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|215273987|sp|Q92908.2|GATA6_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-6; AltName: Full=GATA-binding factor 6</Hit_def>
+  <Hit_accession>Q92908</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>3.09325e-40</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSIQTPLWRRDGTGHYLCN---ACGLYSKMNGLSRPLIKPQKRVPSSRRLGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGHYLCN   ACGLY ++NG +RPLI+P+KR+  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|119299|sp|P28515.1|ELT1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor elt-1</Hit_def>
+  <Hit_accession>P28515</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.71714e-39</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLR-VSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>EDRECV----NCGVHNTPLWRRDGSGNYLCN---ACGLYFKMNHHARPLVKPKKRQQNAQKRTGIECV----NCRTNTTTLWRRNGEGHPVCN---ACGLYFKLHKVERPITMKKDGIQTRNRKL</Hsp_hseq>
+      <Hsp_midline>E RECV    NCG   TPLWRRDG+G+YLCN   ACGLY ++N   RPL++PKKR +   KR G  C     NC+T+TTTLWRR+  G PVCN   ACGLY+KLH+V RP+TM+KDGIQTRNRK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|215274026|sp|Q95JA5.2|GATA6_PIG</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor GATA-6; AltName: Full=GATA-binding factor 6</Hit_def>
+  <Hit_accession>Q95JA5</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.82616e-38</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>ESRECV----NCGSIQTPLWRRDGTGHYLCN---RCGLYSKMNGLSGPLIKPQKPVPSSRRLGLSCA----NCHTTTTTLWRRNAEGEPVCN---ACGLYMKLHGVPRPLAMKKEGIQTRKRK</Hsp_hseq>
+      <Hsp_midline>E+RECV    NCG+  TPLWRRDGTGHYLCN    CGLY ++NG + PLI+P+K +  S+R G  C+    NC T+TTTLWRR+  G+PVCN   ACGLY KLH V RPL M+K+GIQTR RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|73920793|sp|P52172.2|SRP_DROME</Hit_id>
+  <Hit_def>RecName: Full=Box A-binding factor; Short=ABF; AltName: Full=GATA-binding factor B; AltName: Full=Protein serpent; AltName: Full=Transcription factor GATA-B; AltName: Full=dGATA-B</Hit_def>
+  <Hit_accession>P52172</Hit_accession>
+  <Hit_len>1264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.01249e-17</Hsp_evalue>
+      <Hsp_query-from>595</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>791</Hsp_hit-from>
+      <Hsp_hit-to>853</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>RRLSASKRAGLSCS----NCHTTHTSLWRRNPAGEPVCN---ACGLYYKLHSVPRPLTMKKDTIQKRKRK</Hsp_hseq>
+      <Hsp_midline>+RL  SKRAG  CS    NC T+ T+LWRR+P G+PVCN   ACGLYYKLH V RPLTM+KD IQ R RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000364709</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>805</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>NCHTTHTSLWRRNPAGEPVCN---ACGLYYKLHSVPRPLTMKKDTIQKRKR</Hsp_hseq>
+      <Hsp_midline>NC  T T LWRR+  G  +CN   ACGLY++L+   RPL   K  ++  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|74627051|sp|O94720.1|YCF8_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein C1393.08</Hit_def>
+  <Hit_accession>O94720</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.01288e-16</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>367</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTG-HYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCGVTETPLWRRTSDKLNFLCN---ACGLYNKQYGVMRPL-SPRNKGSSKALENLVCA----NCSSTKTSLWRKDRHGQTVCN---ACGLYARLHGHNRPIGLKKNKITRRRR</Hsp_hseq>
+      <Hsp_midline>NCG T TPLWRR     ++LCN   ACGLY++  G  RPL  P+ +         VC+    NC ++ T+LWR+   G  VCN   ACGLY +LH  NRP+ ++K+ I  R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1706638|sp|Q10655.1|ELT2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor elt-2</Hit_def>
+  <Hit_accession>Q10655</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.16616e-13</Hsp_evalue>
+      <Hsp_query-from>610</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>SKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDG-IQTRNRK</Hsp_qseq>
+      <Hsp_hseq>SRRQGLVCS----NCNGTNTTLWRRNAEGDPVCN---ACGLYFKLHHIPRPTSMKKEGALQTRKRK</Hsp_hseq>
+      <Hsp_midline>S+R G VCS    NC  + TTLWRR+  GDPVCN   ACGLY+KLH + RP +M+K+G +QTR RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0223475</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKK-RLRVSKR</Hsp_qseq>
+      <Hsp_hseq>NCNGTNTTLWRRNAEGDPVCN---ACGLYFKLHHIPRPTSMKKEGALQTRKR</Hsp_hseq>
+      <Hsp_midline>NC  T T LWRR+  G  +CN   ACGLY +L+   RP    K+  L+  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1346083|sp|Q10134.1|FEP1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Iron-sensing transcription factor 1; AltName: Full=Transcription factor gaf2; Short=Gaf-2</Hit_def>
+  <Hit_accession>Q10134</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.45769e-10</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCATTNTPLWRRDESGNPICN---ACGLYYKIHGVHRPVTMKKAIIKRRKRLV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G+P+CN   ACGLYYK+H V+RP+TM+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>8.5482e-07</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>KNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>QNCATTNTPLWRRDESGNPICN---ACGLYYKIHGVHRPVTMKKAIIKRRKR</Hsp_hseq>
+      <Hsp_midline>+NC  T TPLWRRD +G+ +CN   ACGLY++++G +RP+   K  ++  KR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0188678</Hsp_evalue>
+      <Hsp_query-from>622</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPL</Hsp_qseq>
+      <Hsp_hseq>GQSCS----NCHKTTTSLWRRGPDNSLLCN---ACGLYQKHRKHARPV</Hsp_hseq>
+      <Hsp_midline>G  CS    NC  +TT+LWRR P    +CN   ACGLY K  +  RP+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.521864</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCHKTTTSLWRRGPDNSLLCN---ACGLYQKHRKHARPV</Hsp_hseq>
+      <Hsp_midline>NC  T T LWRR      LCN   ACGLY +     RP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1407892569|sp|Q1K8E7.1|SREA_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor sre; AltName: Full=Siderophore uptake regulator sreA</Hit_def>
+  <Hit_accession>Q1K8E7</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.50323e-10</Hsp_evalue>
+      <Hsp_query-from>451</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>VMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRP----KKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>VIACQNCGTTITPLWRRDEAGHTICN---ACGLYYKLHGVHRPVTMKKAIIKRRKRVIPAAGGDAEIEPSEAPDSPPAT-SEPPMEKGTVNEDGSVNLGIRRRSV-RPLTLVPEDELRRNRQ</Hsp_hseq>
+      <Hsp_midline>V+A +NCG T TPLWRRD  GH +CN   ACGLY++L+G +RP+       K+R RV   AG     E      S        PM     N   +  L  +   V RPLT+  +    RNR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.28184e-09</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTITPLWRRDEAGHTICN---ACGLYYKLHGVHRPVTMKKAIIKRRKRVI</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G  +CN   ACGLYYKLH V+RP+TM+K  I+ R R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>4.64329e-06</Hsp_evalue>
+      <Hsp_query-from>607</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRK</Hsp_qseq>
+      <Hsp_hseq>VQGHAGQVCS----NCGTTHTPLWRRSPQGAIICN---ACGLYLKARNAARPANIRR</Hsp_hseq>
+      <Hsp_midline>V   AG VCS    NC T+ T LWRRSP G  +CN   ACGLY K     RP  +R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00363168</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRP</Hsp_qseq>
+      <Hsp_hseq>NCGTTHTPLWRRSPQGAIICN---ACGLYLKARNAARP</Hsp_hseq>
+      <Hsp_midline>NCG T TPLWRR   G  +CN   ACGLY +     RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2494690|sp|Q01168.1|NUT1_MAGO7</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein NUT1</Hit_def>
+  <Hit_accession>Q01168</Hit_accession>
+  <Hit_len>956</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.37591e-10</Hsp_evalue>
+      <Hsp_query-from>619</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>APTTCT----NCATQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>A T C+    NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00137363</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>665</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL------IRPKKRLRVSKRAGTVCSHERENCQTST</Hsp_qseq>
+      <Hsp_hseq>NCATQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNRGSGSNVPGATSGSRSKKGATST</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL      I+ + R   S   G       +   TST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1407892567|sp|N4XMB0.1|SREA_COCH4</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor SRE1; AltName: Full=Siderophore uptake regulator SRE1</Hit_def>
+  <Hit_accession>N4XMB0</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>5.55539e-10</Hsp_evalue>
+      <Hsp_query-from>451</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>VMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>IPACQNCGTTITPLWRRDDAGHIICN---ACGLYYKLHGTHRPVAMKKQEIKRRKR</Hsp_hseq>
+      <Hsp_midline>+ A +NCG T TPLWRRD  GH +CN   ACGLY++L+G +RP+   K+ ++  KR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.13964e-08</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTITPLWRRDDAGHIICN---ACGLYYKLHGTHRPVAMKKQEIKRRKRIV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G  +CN   ACGLYYKLH  +RP+ M+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>8.13966e-07</Hsp_evalue>
+      <Hsp_query-from>622</Hsp_query-from>
+      <Hsp_query-to>780</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKD</Hsp_qseq>
+      <Hsp_hseq>GQVCS----NCKTTQTPLWRRSPAGETVCN---ACGLYMKARNQSRPVNLKRN</Hsp_hseq>
+      <Hsp_midline>G VCS    NC+T+ T LWRRSP G+ VCN   ACGLY K    +RP+ ++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000863765</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCKTTQTPLWRRSPAGETVCN---ACGLYMKARNQSRPV</Hsp_hseq>
+      <Hsp_midline>NC  T TPLWRR   G  +CN   ACGLY +   Q+RP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|12644402|sp|Q10280.2|GAF1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor gaf1; Short=Gaf-1</Hit_def>
+  <Hit_accession>Q10280</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.6512e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>NCQTRTTPLWRRSPDGQPLCN---ACGLFMKINGVVRPLSLKTDVIKKRNRGV</Hsp_hseq>
+      <Hsp_midline>NCQT TT LWRRSP G P+CN   ACGL+ K++ V RPL+++ D I+ RNR V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00134079</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>672</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCQTRTTPLWRRSPDGQPLCN---ACGLFMKINGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR   G  LCN   ACGL+ ++NG  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|3182920|sp|P78688.1|AREA_GIBFU</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA</Hit_def>
+  <Hit_accession>P78688</Hit_accession>
+  <Hit_len>971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.92163e-10</Hsp_evalue>
+      <Hsp_query-from>619</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>690</Hsp_hit-from>
+      <Hsp_hit-to>743</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>APTTCT----NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>A T C+    NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00238956</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>696</Hsp_hit-from>
+      <Hsp_hit-to>779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL------IRPKKR------------LRVSKRAGTVCSHERENCQTSTTT</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNRGSGTNVPVGGSSTRSKKTASTLNSRKNSTLSMSTAT</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL      I+ + R             R  K A T+ S +      ST T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2494687|sp|Q01582.1|AREA_PENCH</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA; Short=Nitrogen regulator nre</Hit_def>
+  <Hit_accession>Q01582</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.16713e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>527</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00169382</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>630</Hsp_query-to>
+      <Hsp_hit-from>527</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRP----KKRLRVSKRAGTV</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNRSSANTLTV</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL       KKR R S    TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|5902804|sp|O13508.2|AREA_PENRO</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA; AltName: Full=Nitrogen regulator nmc</Hit_def>
+  <Hit_accession>O13508</Hit_accession>
+  <Hit_len>860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.88659e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>709</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00404232</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|2494688|sp|Q92269.1|NRFA_PENUR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein nrfA</Hit_def>
+  <Hit_accession>Q92269</Hit_accession>
+  <Hit_len>865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.90892e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>667</Hsp_hit-from>
+      <Hsp_hit-to>714</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00404743</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>667</Hsp_hit-from>
+      <Hsp_hit-to>702</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|3182913|sp|O13415.1|AREA_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA</Hit_def>
+  <Hit_accession>O13415</Hit_accession>
+  <Hit_len>866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.91335e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>666</Hsp_hit-from>
+      <Hsp_hit-to>713</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00404844</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>666</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|1351972|sp|P17429.2|AREA_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA</Hit_def>
+  <Hit_accession>P17429</Hit_accession>
+  <Hit_len>876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.95716e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>675</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00405845</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>675</Hsp_hit-from>
+      <Hsp_hit-to>710</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|3182912|sp|O13412.1|AREA_ASPNG</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein areA</Hit_def>
+  <Hit_accession>O13412</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.98296e-10</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>725</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00234286</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRP----KKRLRVS--------KRAGTVCSHERENCQTSTTT</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPEGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNRSSANSLAVGTSRASKKSARKNSVQQTTVTT</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL       KKR R S         RA    + +    QT+ TT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|1407892568|sp|G5EB20.1|SREA_EMENI</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor sreA; AltName: Full=Siderophore uptake regulator sreA</Hit_def>
+  <Hit_accession>G5EB20</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.01928e-09</Hsp_evalue>
+      <Hsp_query-from>451</Hsp_query-from>
+      <Hsp_query-to>669</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>VMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTT</Hsp_qseq>
+      <Hsp_hseq>LVACQNCGTTVTPLWRRDENGHPICN---ACGLYYKLHGSYRPTTMKK---TIIKRRKRVVPALRENSPTAAT</Hsp_hseq>
+      <Hsp_midline>++A +NCG T TPLWRRD  GH +CN   ACGLY++L+G  RP    K    + KR   V    REN  T+ T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.1441e-09</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTVTPLWRRDENGHPICN---ACGLYYKLHGSYRPTTMKKTIIKRRKRVV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G P+CN   ACGLYYKLH   RP TM+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.36653e-05</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRP</Hsp_qseq>
+      <Hsp_hseq>MNGHHVEKTSPK-----SQKDTSFLGHSCSNCGTKSTPLWRRSPTGAMICN---ACGLYLKARNVARP</Hsp_hseq>
+      <Hsp_midline>+NG +     PK     S++  +   H   NC T +T LWRRSP G  +CN   ACGLY K   V RP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000884523</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>606</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLR</Hsp_qseq>
+      <Hsp_hseq>NCGTKSTPLWRRSPTGAMICN---ACGLYLKA----RNVARPTKRNR</Hsp_hseq>
+      <Hsp_midline>NCG  +TPLWRR  TG  +CN   ACGLY +     R + RP KR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|14285349|sp|Q9HEV5.1|ASD4_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=GATA type zinc finger protein asd-4; AltName: Full=Ascus development protein 4</Hit_def>
+  <Hit_accession>Q9HEV5</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.04966e-09</Hsp_evalue>
+      <Hsp_query-from>625</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TVCSHERE-------NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>TMANHDRETTQPTCQNCATSTTPLWRRDEMGQVLCN---ACGLFLKLHGRPRPISLKTDVIKSRNR</Hsp_hseq>
+      <Hsp_midline>T+ +H+RE       NC TSTT LWRR  MG  +CN   ACGL+ KLH   RP++++ D I++RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>4.72519e-05</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>QNCATSTTPLWRRDEMGQVLCN---ACGLFLKLHGRPRPI</Hsp_hseq>
+      <Hsp_midline>+NC  + TPLWRRD  G  LCN   ACGL+ +L+G+ RP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|166214957|sp|P19212.2|NIT2_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen catabolic enzyme regulatory protein; AltName: Full=Nitrogen regulatory protein 2; Short=NIT2</Hit_def>
+  <Hit_accession>P19212</Hit_accession>
+  <Hit_len>1036</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.392e-09</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPDGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRNR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00419232</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCFTQTTPLWRRNPDGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|1407892565|sp|B4XXY3.1|SREA_AJECA</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor SRE1; AltName: Full=Siderophore uptake regulator SRE1</Hit_def>
+  <Hit_accession>B4XXY3</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.96155e-09</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCQTTVTPLWRRDENGHPICN---ACGLYHKLHGAYRPPTMKKSIIKRRKRVV</Hsp_hseq>
+      <Hsp_midline>+NCQT+ T LWRR   G P+CN   ACGLY+KLH   RP TM+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.04853e-08</Hsp_evalue>
+      <Hsp_query-from>454</Hsp_query-from>
+      <Hsp_query-to>669</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTT</Hsp_qseq>
+      <Hsp_hseq>IACQNCQTTVTPLWRRDENGHPICN---ACGLYHKLHGAYRP---PTMKKSIIKRRKRVVPAMREQSPPSAT</Hsp_hseq>
+      <Hsp_midline>+A +NC  T TPLWRRD  GH +CN   ACGLYH+L+G  RP   P  +  + KR   V    RE    S T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.53935e-05</Hsp_evalue>
+      <Hsp_query-from>592</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRP</Hsp_qseq>
+      <Hsp_hseq>KKSPKAQSKEQAFTGHSCSNCGTKRTPLWRRSPTGATICN---ACGLYLKARNTDRP</Hsp_hseq>
+      <Hsp_midline>KK  +   +      H   NC T  T LWRRSP G  +CN   ACGLY K    +RP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00053589</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>603</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRL</Hsp_qseq>
+      <Hsp_hseq>NCGTKRTPLWRRSPTGATICN---ACGLYLKARNTDRPTHRSRSLL</Hsp_hseq>
+      <Hsp_midline>NCG   TPLWRR  TG  +CN   ACGLY +    +RP  R +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|74585847|sp|Q5A432.1|GAT1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein GAT1</Hit_def>
+  <Hit_accession>Q5A432</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.06147e-09</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCGTKTTPLWRRNPQGQPLCN---ACGLFLKLHGVVRPLSLKTDVIKKRQR</Hsp_hseq>
+      <Hsp_midline>NC T TT LWRR+P G P+CN   ACGL+ KLH V RPL+++ D I+ R R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000317487</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCGTKTTPLWRRNPQGQPLCN---ACGLFLKLHGVVRPL</Hsp_hseq>
+      <Hsp_midline>NCG   TPLWRR+  G  LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|74673431|sp|Q4WV91.1|SREA_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor sreA; AltName: Full=Siderophore uptake regulator sreA</Hit_def>
+  <Hit_accession>Q4WV91</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.35544e-09</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTVTPLWRRDENGHPICN---ACGLYYKLHGCYRPTTMKKSIIKRRKRVV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G P+CN   ACGLYYKLH   RP TM+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.26613e-08</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>702</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDP</Hsp_qseq>
+      <Hsp_hseq>EGGNMLVSCQNCGTTVTPLWRRDENGHPICN---ACGLYYKLHGCYRPTTMKKSIIKRRKRVVPALRDQSPSGATYSSNGSSASPEASP</Hsp_hseq>
+      <Hsp_midline>E    +++ +NCG T TPLWRRD  GH +CN   ACGLY++L+G  RP    K  ++  KR       +  +  T ++     SP   P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.37795e-05</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LNGQNRP----LIRPKKRLRVSKRAGTVCS---HERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRP</Hsp_qseq>
+      <Hsp_hseq>MNGQRWPEQQRTAPPAEKTSTSPKAQKDTSFLGHSCSNCGTKSTPLWRRSPTGAMICN---ACGLYLKARNVARP</Hsp_hseq>
+      <Hsp_midline>+NGQ  P       P ++   S +A    S   H   NC T +T LWRRSP G  +CN   ACGLY K   V RP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000668516</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRV</Hsp_qseq>
+      <Hsp_hseq>NCGTKSTPLWRRSPTGAMICN---ACGLYLKA----RNVARPTKRNRM</Hsp_hseq>
+      <Hsp_midline>NCG  +TPLWRR  TG  +CN   ACGLY +     R + RP KR R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|1169843|sp|P43574.1|GAT1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein GAT1</Hit_def>
+  <Hit_accession>P43574</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.95255e-09</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCTTSTTPLWRKDPKGLPLCN---ACGLFLKLHGVTRPLSLKTDIIKKRQR</Hsp_hseq>
+      <Hsp_midline>NC TSTT LWR+ P G P+CN   ACGL+ KLH V RPL+++ D I+ R R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000371588</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGT</Hsp_qseq>
+      <Hsp_hseq>NCTTSTTPLWRKDPKGLPLCN---ACGLFLKLHGVTRPLSLKTDIIKKRQRSST</Hsp_hseq>
+      <Hsp_midline>NC  + TPLWR+D  G  LCN   ACGL+ +L+G  RPL      ++  +R+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|2494691|sp|Q92259.1|SREP_PENCH</Hit_id>
+  <Hit_def>RecName: Full=GATA factor SREP</Hit_def>
+  <Hit_accession>Q92259</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>5.35712e-09</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>702</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDP</Hsp_qseq>
+      <Hsp_hseq>DASNTLVACQNCGTTVTPLWRRDEQGHPICN---ACGLYYKLHGCYRPTNMKKSIIKRRKRVVPALRDQSPTAGTLSSNGSSTSPEASP</Hsp_hseq>
+      <Hsp_midline>+A   ++A +NCG T TPLWRRD  GH +CN   ACGLY++L+G  RP    K  ++  KR       +     T ++     SP   P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>5.35712e-09</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTVTPLWRRDEQGHPICN---ACGLYYKLHGCYRPTNMKKSIIKRRKRVV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G P+CN   ACGLYYKLH   RP  M+K  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.01703e-05</Hsp_evalue>
+      <Hsp_query-from>610</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>SKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRP</Hsp_qseq>
+      <Hsp_hseq>SQKDTTFLGHSCSNCGTKSTPLWRRSPTGAMICN---ACGLYLKARNVARP</Hsp_hseq>
+      <Hsp_midline>S++  T   H   NC T +T LWRRSP G  +CN   ACGLY K   V RP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000660945</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRV</Hsp_qseq>
+      <Hsp_hseq>NCGTKSTPLWRRSPTGAMICN---ACGLYLKA----RNVARPTKRNRM</Hsp_hseq>
+      <Hsp_midline>NCG  +TPLWRR  TG  +CN   ACGLY +     R + RP KR R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|119370539|sp|P40349.2|URB1_USTMA</Hit_id>
+  <Hit_def>RecName: Full=Siderophore biosynthesis regulatory protein URBS1</Hit_def>
+  <Hit_accession>P40349</Hit_accession>
+  <Hit_len>1084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.83931e-09</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>NCQTTTTPLWRRDEDGNNICN---ACGLYHKLHGTHRPIGMKKSVIKRRKR</Hsp_hseq>
+      <Hsp_midline>NCQT+TT LWRR   G+ +CN   ACGLY+KLH  +RP+ M+K  I+ R R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.06904e-07</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>NCQTTTTPLWRRDEDGNNICN---ACGLYHKLHGTHRPIGMKKSVIKRRKR</Hsp_hseq>
+      <Hsp_midline>NC  T TPLWRRD  G+ +CN   ACGLYH+L+G +RP+   K  ++  KR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.000118125</Hsp_evalue>
+      <Hsp_query-from>619</Hsp_query-from>
+      <Hsp_query-to>783</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDG</Hsp_qseq>
+      <Hsp_hseq>AGMRCS----NCGVTSTPLWRRAPDGSTICN---ACGLYIKSHSTHRSASNRLSG</Hsp_hseq>
+      <Hsp_midline>AG  CS    NC  ++T LWRR+P G  +CN   ACGLY K H  +R  + R  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00556137</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>576</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>ARECVMARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNR</Hsp_qseq>
+      <Hsp_hseq>AHHAGMRCSNCGVTSTPLWRRAPDGSTICN---ACGLYIKSHSTHR</Hsp_hseq>
+      <Hsp_midline>A    M   NCG T+TPLWRR   G  +CN   ACGLY + +  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|1407892566|sp|D4B3J8.1|SREA_ARTBC</Hit_id>
+  <Hit_def>RecName: Full=GATA-type transcription factor sreA; AltName: Full=Siderophore uptake regulator sreA</Hit_def>
+  <Hit_accession>D4B3J8</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.25949e-08</Hsp_evalue>
+      <Hsp_query-from>457</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>ACQNCGTTLTPLWRRDDQGNTICN---ACGLYYRLHGSHRPVAMKKTVIKRRKR</Hsp_hseq>
+      <Hsp_midline>A +NCG T TPLWRRD  G+ +CN   ACGLY+RL+G +RP+   K  ++  KR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.91777e-08</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>QNCGTTLTPLWRRDDQGNTICN---ACGLYYRLHGSHRPVAMKKTVIKRRKRVV</Hsp_hseq>
+      <Hsp_midline>+NC T+ T LWRR   G+ +CN   ACGLYY+LH  +RP+ M+K  I+ R R V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|1160421797|sp|Q5A201.2|GZF3_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator GZF3</Hit_def>
+  <Hit_accession>Q5A201</Hit_accession>
+  <Hit_len>712</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.47598e-08</Hsp_evalue>
+      <Hsp_query-from>619</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNR</Hsp_qseq>
+      <Hsp_hseq>SGPVCG----NCQTQTTPLWRRDETGQVLCN---ACGLFLKLHGRPRPISLKTDTIKSRNR</Hsp_hseq>
+      <Hsp_midline>+G VC     NCQT TT LWRR   G  +CN   ACGL+ KLH   RP++++ D I++RNR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.62811e-05</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCQTQTTPLWRRDETGQVLCN---ACGLFLKLHGRPRPI</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRRD TG  LCN   ACGL+ +L+G+ RP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|1170148|sp|P42944.1|GZF3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Protein GZF3</Hit_def>
+  <Hit_accession>P42944</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.90353e-08</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>KNCLTSTTPLWRRDEHGAMLCN---ACGLFLKLHGKPRPISLKTDVIKSRNRK</Hsp_hseq>
+      <Hsp_midline>+NC TSTT LWRR   G  +CN   ACGL+ KLH   RP++++ D I++RNRK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.16749e-05</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>KNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRV-SKRAGTVCSHERENCQTST</Hsp_qseq>
+      <Hsp_hseq>KNCLTSTTPLWRRDEHGAMLCN---ACGLFLKLHGKPRPISLKTDVIKSRNRKSNTNHAHNLDNFRNQT</Hsp_hseq>
+      <Hsp_midline>KNC  + TPLWRRD  G  LCN   ACGL+ +L+G+ RP+      ++  ++++ T  +H  +N +  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|1191160220|sp|Q5AP95.2|SFU1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Suppressor of ferric uptake 1</Hit_def>
+  <Hit_accession>Q5AP95</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>8.64856e-08</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>NCGTTITPLWRRDDAGNTICN---ACGLFYRLHGSHRPIKMKRPTIKRRKR</Hsp_hseq>
+      <Hsp_midline>NCG T TPLWRRD  G+ +CN   ACGL++RL+G +RP+   +  ++  KR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.003e-07</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRKV</Hsp_qseq>
+      <Hsp_hseq>NCGTTITPLWRRDDAGNTICN---ACGLFYRLHGSHRPIKMKRPTIKRRKRNV</Hsp_hseq>
+      <Hsp_midline>NC T+ T LWRR   G+ +CN   ACGL+Y+LH  +RP+ M++  I+ R R V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>5.72796e-06</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRP--LIRPKKRLRVSKRAGTVC</Hsp_qseq>
+      <Hsp_hseq>NCGTTKTPLWRRAPDGTLICN---ACGLYYRSNNTHRPVNLKRPPNTIAVVKEEEGSC</Hsp_hseq>
+      <Hsp_midline>NCG T TPLWRR   G  +CN   ACGLY+R N  +RP  L RP   + V K     C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.03353e-05</Hsp_evalue>
+      <Hsp_query-from>622</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRK</Hsp_qseq>
+      <Hsp_hseq>GQQCS----NCGTTKTPLWRRAPDGTLICN---ACGLYYRSNNTHRPVNLKR</Hsp_hseq>
+      <Hsp_midline>G  CS    NC T+ T LWRR+P G  +CN   ACGLYY+ +  +RP+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|729591|sp|P18494.2|GLN3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein GLN3</Hit_def>
+  <Hit_accession>P18494</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.40751e-07</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>NCKTFKTPLWRRSPEGNTLCN---ACGLFQKLHGTMRPLSLKSDVIKKRISK</Hsp_hseq>
+      <Hsp_midline>NC+T  T LWRRSP G+ +CN   ACGL+ KLH   RPL+++ D I+ R  K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000976815</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCKTFKTPLWRRSPEGNTLCN---ACGLFQKLHGTMRPL</Hsp_hseq>
+      <Hsp_midline>NC    TPLWRR   G+ LCN   ACGL+ +L+G  RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|118219|sp|P26343.1|DAL80_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulatory protein DAL80; AltName: Full=Regulatory protein UGA43</Hit_def>
+  <Hit_accession>P26343</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.62949e-07</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>ENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>QNCFTVKTPLWRRDEHGTVLCN---ACGLFLKLHGEPRPISLKTDTIKSRNRK</Hsp_hseq>
+      <Hsp_midline>+NC T  T LWRR   G  +CN   ACGL+ KLH   RP++++ D I++RNRK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>6.63268e-05</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>702</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>KNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDP</Hsp_qseq>
+      <Hsp_hseq>QNCFTVKTPLWRRDEHGTVLCN---ACGLFLKLHGEPRP---------ISLKTDTIKSRNRKKLNNNNVNTNANTHSNDP</Hsp_hseq>
+      <Hsp_midline>+NC    TPLWRRD  G  LCN   ACGL+ +L+G+ RP         +S +  T+ S  R+    +       +   DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|74960022|sp|O61924.1|ELT7_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor elt-7</Hit_def>
+  <Hit_accession>O61924</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.32288e-07</Hsp_evalue>
+      <Hsp_query-from>631</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDGIQTRNRK</Hsp_qseq>
+      <Hsp_hseq>CSH----CSTTTTTLWRKNDEGNLECN---ACNLYYRHNKVKRPLSLCKQKPTTRKRR</Hsp_hseq>
+      <Hsp_midline>CSH    C T+TTTLWR++  G+  CN   AC LYY+ ++V RPL++ K    TR R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00559611</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKR</Hsp_qseq>
+      <Hsp_hseq>HCSTTTTTLWRKNDEGNLECN---ACNLYYRHNKVKRPLSLCKQKPTTRKR</Hsp_hseq>
+      <Hsp_midline>+C  T T LWR++  G+  CN   AC LY+R N   RPL   K++    KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|20140909|sp|Q9UHF7.2|TRPS1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger transcription factor Trps1; AltName: Full=Tricho-rhino-phalangeal syndrome type I protein; AltName: Full=Zinc finger protein GC79</Hit_def>
+  <Hit_accession>Q9UHF7</Hit_accession>
+  <Hit_len>1281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>8.53769e-07</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>873</Hsp_hit-from>
+      <Hsp_hit-to>951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>NGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDG-----IQTRNRK</Hsp_qseq>
+      <Hsp_hseq>SGENKSKDESQSLLRRRRGSGVFCA----NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPLNIIKQNNGEQIIRRRTRK</Hsp_hseq>
+      <Hsp_midline>+G+N+     +  LR  + +G  C+    NC T+ T+LWR++  G  VCN   ACGLY KLH   RPL + K       I+ R RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00144417</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>898</Hsp_hit-from>
+      <Hsp_hit-to>933</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPL</Hsp_hseq>
+      <Hsp_midline>NC  T T LWR++  G Y+CN   ACGLY +L+   RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|20140645|sp|Q925H1.1|TRPS1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger transcription factor Trps1</Hit_def>
+  <Hit_accession>Q925H1</Hit_accession>
+  <Hit_len>1281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.39072e-06</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>873</Hsp_hit-from>
+      <Hsp_hit-to>951</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>NGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDG-----IQTRNRK</Hsp_qseq>
+      <Hsp_hseq>SGESKTKDESQSLLRRRRGSGVFCA----NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPLNIIKQNNGEQIIRRRTRK</Hsp_hseq>
+      <Hsp_midline>+G+++     +  LR  + +G  C+    NC T+ T+LWR++  G  VCN   ACGLY KLH   RPL + K       I+ R RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00144417</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>898</Hsp_hit-from>
+      <Hsp_hit-to>933</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPL</Hsp_hseq>
+      <Hsp_midline>NC  T T LWR++  G Y+CN   ACGLY +L+   RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|20140637|sp|Q90ZS6.1|TRPS1_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger transcription factor Trps1</Hit_def>
+  <Hit_accession>Q90ZS6</Hit_accession>
+  <Hit_len>1271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>7.74097e-06</Hsp_evalue>
+      <Hsp_query-from>565</Hsp_query-from>
+      <Hsp_query-to>804</Hsp_query-to>
+      <Hsp_hit-from>864</Hsp_hit-from>
+      <Hsp_hit-to>941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGDPVCNNIHACGLYYKLHQVNRPLTMRKDG-----IQTRNRK</Hsp_qseq>
+      <Hsp_hseq>GDSKSKDESQSLLRRRRGSGVFCA----NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPLNIIKQNNGEQIIRRRTRK</Hsp_hseq>
+      <Hsp_midline>G ++     +  LR  + +G  C+    NC T+ T+LWR++  G  VCN   ACGLY KLH   RPL + K       I+ R RK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00144253</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>888</Hsp_hit-from>
+      <Hsp_hit-to>923</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPL</Hsp_qseq>
+      <Hsp_hseq>NCLTTKTSLWRKNANGGYVCN---ACGLYQKLHSTPRPL</Hsp_hseq>
+      <Hsp_midline>NC  T T LWR++  G Y+CN   ACGLY +L+   RPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|74853956|sp|Q54NM5.1|GTAL_DICDI</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein 12</Hit_def>
+  <Hit_accession>Q54NM5</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.178838</Hsp_evalue>
+      <Hsp_query-from>598</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>492</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RLRVSKRAGTVCSHERENCQTSTTTLWRRSPMG-DPVCNNIHACGLYYKLHQVNRP</Hsp_qseq>
+      <Hsp_hseq>RAQTKKQKKTI-SRVCVNCKTSDTPEWRRGPQGAKTLCN---ACGIRYRLQQQQVP</Hsp_hseq>
+      <Hsp_midline>R +  K+  T+ S    NC+TS T  WRR P G   +CN   ACG+ Y+L Q   P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>8.48925</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>503</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ARECVMARKNCGATATPLWRRDGTG-HYLCNWASACGLYHRLNGQNRP</Hsp_qseq>
+      <Hsp_hseq>SRVCV----NCKTSDTPEWRRGPQGAKTLCN---ACGIRYRLQQQQVP</Hsp_hseq>
+      <Hsp_midline>+R CV    NC  + TP WRR   G   LCN   ACG+ +RL  Q  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|74855287|sp|Q54TE3.1|GTAJ_DICDI</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein 10</Hit_def>
+  <Hit_accession>Q54TE3</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.183574</Hsp_evalue>
+      <Hsp_query-from>565</Hsp_query-from>
+      <Hsp_query-to>750</Hsp_query-to>
+      <Hsp_hit-from>610</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>GQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMGD-PVCNNIHACGLYYKLHQ</Hsp_qseq>
+      <Hsp_hseq>GQDKPQ-RRRRRTMYSSRRNLKCHY----CEVTETPEWRRGPDGDHTLCN---ACGLHYAKSQ</Hsp_hseq>
+      <Hsp_midline>GQ++P  R ++R   S R    C +    C+ + T  WRR P GD  +CN   ACGL+Y   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|74865845|sp|Q8MP30.1|Y7791_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized histidine-rich protein DDB_G0274557; Flags: Precursor</Hit_def>
+  <Hit_accession>Q8MP30</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.74473</Hsp_evalue>
+      <Hsp_query-from>663</Hsp_query-from>
+      <Hsp_query-to>800</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>HHHSVASQPHGGPRLQQHSRLRPLLQTAP---SEPPPHDAQRRNPNPKP</Hsp_qseq>
+      <Hsp_hseq>HHHHPHHHPHPHPHPHPHPHLHPNPHPHPHPHPHPHPHPHHHPNPNPHP</Hsp_hseq>
+      <Hsp_midline>HHH     PH  P    H  L P     P     P PH     NPNP P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|1511375524|sp|A0A0R4IKU3.3|RECK_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Reversion-inducing cysteine-rich protein with Kazal motifs; Flags: Precursor</Hit_def>
+  <Hit_accession>A0A0R4IKU3</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.765429</Hsp_evalue>
+      <Hsp_query-from>233</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>804</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>CWPPTPPQAACPWCRGQTRVLW</Hsp_qseq>
+      <Hsp_hseq>CQPVTPPGACCPVCAGMLRILW</Hsp_hseq>
+      <Hsp_midline>C P TPP A CP C G  R+LW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|123778952|sp|Q1WG82.1|ZGLP1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=GATA-type zinc finger protein 1; AltName: Full=GATA-like protein 1; Short=GLP-1</Hit_def>
+  <Hit_accession>Q1WG82</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.11707</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>SCRTQRTPLWRDAEDGTPLCN---ACGIRYK</Hsp_hseq>
+      <Hsp_midline>+C+T  T LWR +  G P+CN   ACG+ YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|166990464|sp|P0C6A0.1|ZGLP1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=GATA-type zinc finger protein 1; AltName: Full=GATA-like protein 1; Short=GLP-1</Hit_def>
+  <Hit_accession>P0C6A0</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.13307</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMGDPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>SCRTQRTPLWRDAEDGTPLCN---ACGIRYK</Hsp_hseq>
+      <Hsp_midline>+C+T  T LWR +  G P+CN   ACG+ YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|74876304|sp|Q75JZ0.1|GTAH_DICDI</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein 8</Hit_def>
+  <Hit_accession>Q75JZ0</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.16818</Hsp_evalue>
+      <Hsp_query-from>592</Hsp_query-from>
+      <Hsp_query-to>738</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMG-DPVCNNIHACGLYY</Hsp_qseq>
+      <Hsp_hseq>EKRREASRLLNNVC----RNCKTTETPEWRKGPDGTKSLCN---ACGLHY</Hsp_hseq>
+      <Hsp_midline>+KR   S+    VC     NC+T+ T  WR+ P G   +CN   ACGL+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|71153513|sp|P13055.2|E75BB_DROME</Hit_id>
+  <Hit_def>RecName: Full=Ecdysone-induced protein 75B, isoform B; AltName: Full=E75-C; AltName: Full=Nuclear receptor subfamily 1 group D member 3, isoform B</Hit_def>
+  <Hit_accession>P13055</Hit_accession>
+  <Hit_len>1412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.81712</Hsp_evalue>
+      <Hsp_query-from>615</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>ARRHSVQPRA*KLPDIHHHS--------VASQPHGGPRLQQHSRLRPLLQTAPSEPPPHDAQRRNPNPKPQ</Hsp_qseq>
+      <Hsp_hseq>ARRHSVSP-----PPLHHHSRSAPVSPVIARRGGAAAYMDQQYQQR---QTPPLAPPPPPPPPPPPPPPPQ</Hsp_hseq>
+      <Hsp_midline>ARRHSV P     P +HHHS        +A +      + Q  + R   QT P  PPP       P P PQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|74855349|sp|Q54TM6.1|GTAI_DICDI</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein 9</Hit_def>
+  <Hit_accession>Q54TM6</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.70256</Hsp_evalue>
+      <Hsp_query-from>577</Hsp_query-from>
+      <Hsp_query-to>738</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>PLIRPK--------KRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMG-DPVCNNIHACGLYY</Hsp_qseq>
+      <Hsp_hseq>PLLRPRQYHACKTSKENRPTKRRKNHTSLFCRHCGTTDTPEWRRGPDGRKSLCN---ACGLHY</Hsp_hseq>
+      <Hsp_midline>PL+RP+        K  R +KR     S    +C T+ T  WRR P G   +CN   ACGL+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|71660823|sp|Q8LC59.2|GAT23_ARATH</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 23</Hit_def>
+  <Hit_accession>Q8LC59</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.04742</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>615</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTG-HYLCNWASACGLYHRLNGQNRPL----IRPKKRLRVSK</Hsp_qseq>
+      <Hsp_hseq>EEKGTIRCCSECKTTKTPMWRGGPTGPKSLCN---ACGIRHRKQRRSELLGIHIIRSHKSLASKK</Hsp_hseq>
+      <Hsp_midline>E +  +     C  T TP+WR   TG   LCN   ACG+ HR   ++  L    IR  K L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|1160421750|sp|Q59LY1.2|BRG1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Biofilm regulator 1</Hit_def>
+  <Hit_accession>Q59LY1</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.31112</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>555</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>CGATATPLWRRDGTG-HYLCNWASACGLYH</Hsp_qseq>
+      <Hsp_hseq>CGTTETPEWRRGPKGVRTLCN---ACGLFH</Hsp_hseq>
+      <Hsp_midline>CG T TP WRR   G   LCN   ACGL+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|1148367336|sp|B8AX51.1|GAT15_ORYSI</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 15; AltName: Full=Protein NECK LEAF 1</Hit_def>
+  <Hit_accession>B8AX51</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.57061</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMG-DPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>NCGTASTPLWRNGPRGPKSLCN---ACGIRYK</Hsp_hseq>
+      <Hsp_midline>NC T++T LWR  P G   +CN   ACG+ YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|75261602|sp|Q6L5E5.1|GAT15_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 15; Short=OsGATA15; AltName: Full=Protein NECK LEAF 1</Hit_def>
+  <Hit_accession>Q6L5E5</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.58732</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMG-DPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>NCGTASTPLWRNGPRGPKSLCN---ACGIRYK</Hsp_hseq>
+      <Hsp_midline>NC T++T LWR  P G   +CN   ACG+ YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|74857005|sp|Q550D5.1|GTAA_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor stalky; AltName: Full=GATA zinc finger domain-containing protein 1</Hit_def>
+  <Hit_accession>Q550D5</Hit_accession>
+  <Hit_len>872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.92224</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>573</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>CGATATPLWRRDGTGH-YLCNWASACGLYHRLNGQN</Hsp_qseq>
+      <Hsp_hseq>CGSSQTPTWRRGPSGKGSLCN---ACGIKWRLKGKD</Hsp_hseq>
+      <Hsp_midline>CG++ TP WRR  +G   LCN   ACG+  RL G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|71660818|sp|Q6QPM2.2|GAT19_ARATH</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 19; AltName: Full=Protein HAN-LIKE 2</Hit_def>
+  <Hit_accession>Q6QPM2</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.07502</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMG-DPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>NCDTTSTPLWRNGPRGPKSLCN---ACGIRFK</Hsp_hseq>
+      <Hsp_midline>NC T++T LWR  P G   +CN   ACG+ +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|71660804|sp|Q8LC79.2|GAT18_ARATH</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 18; AltName: Full=Protein HANABA TARANU</Hit_def>
+  <Hit_accession>Q8LC79</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.52009</Hsp_evalue>
+      <Hsp_query-from>649</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>NCQTSTTTLWRRSPMG-DPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>NCDTTSTPLWRNGPRGPKSLCN---ACGIRFK</Hsp_hseq>
+      <Hsp_midline>NC T++T LWR  P G   +CN   ACG+ +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|71660799|sp|Q9LT45.1|GAT29_ARATH</Hit_id>
+  <Hit_def>RecName: Full=GATA transcription factor 29</Hit_def>
+  <Hit_accession>Q9LT45</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.67849</Hsp_evalue>
+      <Hsp_query-from>457</Hsp_query-from>
+      <Hsp_query-to>741</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ARKNCGATATPLWRRDGTGHYLCNWASACGLYHRLNGQNRPLIRPKKRLRVSKRAGTVCSHERENCQTSTTTLWRRSPMG-DPVCNNIHACGLYYK</Hsp_qseq>
+      <Hsp_hseq>ARRNNSTVMTNSWKENATPKRIRGCGGFCG--GRIEGMKK------------------CTNM--NCNALNTPMWRRGPLGPKSLCN---ACGIKFR</Hsp_hseq>
+      <Hsp_midline>AR+N     T  W+ + T   +      CG   R+ G  +                  C++   NC    T +WRR P+G   +CN   ACG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|14547908|sp|P58197.1|AP2A_RAT</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor AP-2-alpha; Short=AP2-alpha; AltName: Full=AP-2 transcription factor; AltName: Full=Activating enhancer-binding protein 2-alpha; AltName: Full=Activator protein 2; Short=AP-2</Hit_def>
+  <Hit_accession>P58197</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.70709</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>GFIRERSGGARIRPPQRHE--LHGSHGIGNALPVNPLRELPH</Hsp_qseq>
+      <Hsp_hseq>GLPHQLSGLDPRRDYRRHEDLLHGPHGLGSGLGDLPIHSLPH</Hsp_hseq>
+      <Hsp_midline>G   + SG    R  +RHE  LHG HG+G+ L   P+  LPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|146286031|sp|A1A4R9.1|AP2A_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor AP-2-alpha; Short=AP2-alpha; AltName: Full=AP-2 transcription factor; AltName: Full=Activating enhancer-binding protein 2-alpha; AltName: Full=Activator protein 2; Short=AP-2</Hit_def>
+  <Hit_accession>A1A4R9</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.70709</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>GFIRERSGGARIRPPQRHE--LHGSHGIGNALPVNPLRELPH</Hsp_qseq>
+      <Hsp_hseq>GLPHQLSGLDPRRDYRRHEDLLHGPHGLGSGLGDLPIHSLPH</Hsp_hseq>
+      <Hsp_midline>G   + SG    R  +RHE  LHG HG+G+ L   P+  LPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|14547914|sp|Q9N0N3.1|AP2A_SHEEP</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor AP-2-alpha; Short=AP2-alpha; AltName: Full=AP-2 transcription factor; AltName: Full=Activating enhancer-binding protein 2-alpha; AltName: Full=Activator protein 2; Short=AP-2</Hit_def>
+  <Hit_accession>Q9N0N3</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.97829</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>GFIRERSGGARIRPPQRHE--LHGSHGIGNALPVNPLRELPH</Hsp_qseq>
+      <Hsp_hseq>GLPHQLSGLDPRRDYRRHEDLLHGPHGLGSGLGDLPIHSLPH</Hsp_hseq>
+      <Hsp_midline>G   + SG    R  +RHE  LHG HG+G+ L   P+  LPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|74837181|sp|Q5KSV0.1|GTAK_DICDI</Hit_id>
+  <Hit_def>RecName: Full=GATA zinc finger domain-containing protein 11; AltName: Full=Transcription factor amvA</Hit_def>
+  <Hit_accession>Q5KSV0</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>8.51516</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>552</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>EARECVMARKNCGATATPLWRRDGTGHY-LCNWASACGLY</Hsp_qseq>
+      <Hsp_hseq>ELKQCT----SCGTTSSPEWRKGPAGNQSLCN---ACGLY</Hsp_hseq>
+      <Hsp_midline>E ++C     +CG T++P WR+   G+  LCN   ACGLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|998455674|sp|A7XN92.1|CFM3_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=CRM-domain containing factor CFM3, chloroplastic/mitochondrial; AltName: Full=Protein CRM FAMILY MEMBER 3; Short=ZmCFM3; Flags: Precursor</Hit_def>
+  <Hit_accession>A7XN92</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>8.8932</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>PIPW-EPWSSWRWGGRMRAPPLRSLMKPEPS</Hsp_qseq>
+      <Hsp_hseq>PHPWLYSWSHPRQRGRLRAPPAALDLRPEPS</Hsp_hseq>
+      <Hsp_midline>P PW   WS  R  GR+RAPP    ++PEPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>471372</Statistics_db-num>
+      <Statistics_db-len>177983108</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

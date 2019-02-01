@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_160837</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>518</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_160837</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>518</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1559969743|gb|CP032603.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus linkage group 6 sequence</Hit_def>
+  <Hit_accession>CP032603</Hit_accession>
+  <Hit_len>27759045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>486</Hsp_query-to>
+      <Hsp_hit-from>17323450</Hsp_hit-from>
+      <Hsp_hit-to>17323473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AATTATACATTATCCTCCCTTAGA</Hsp_qseq>
+      <Hsp_hseq>AATTATACATTATCCTCCCTTAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1558335665|gb|CP027267.1|</Hit_id>
+  <Hit_def>Lateolabrax maculatus chromosome Lm6</Hit_def>
+  <Hit_accession>CP027267</Hit_accession>
+  <Hit_len>27060119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>486</Hsp_query-to>
+      <Hsp_hit-from>15499687</Hsp_hit-from>
+      <Hsp_hit-to>15499710</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AATTATACATTATCCTCCCTTAGA</Hsp_qseq>
+      <Hsp_hseq>AATTATACATTATCCTCCCTTAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1543017352|gb|CP034660.1|</Hit_id>
+  <Hit_def>Colwellia sp. Arc7-635 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP034660</Hit_accession>
+  <Hit_len>4741350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>468</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>4243365</Hsp_hit-from>
+      <Hsp_hit-to>4243400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>TACATTATCCTCCCTTAGATGGTACAGAAGAACCAG</Hsp_qseq>
+      <Hsp_hseq>TACATTATCCTCCATTTGATGGTACAGAAGAGCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || |||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1307445973|gb|CP025164.1|</Hit_id>
+  <Hit_def>Candida albicans strain SC5314-P0 chromosome 7B</Hit_def>
+  <Hit_accession>CP025164</Hit_accession>
+  <Hit_len>949291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480133</Hsp_hit-from>
+      <Hsp_hit-to>480164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1307445965|gb|CP025156.1|</Hit_id>
+  <Hit_def>Candida albicans strain SC5314-P0 chromosome 7A</Hit_def>
+  <Hit_accession>CP025156</Hit_accession>
+  <Hit_len>949203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480201</Hsp_hit-from>
+      <Hsp_hit-to>480232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1305241565|gb|CP025181.1|</Hit_id>
+  <Hit_def>Candida albicans strain SC5314-GTH12 chromosome 7B</Hit_def>
+  <Hit_accession>CP025181</Hit_accession>
+  <Hit_len>949045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480033</Hsp_hit-from>
+      <Hsp_hit-to>480064</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1305241253|gb|CP025173.1|</Hit_id>
+  <Hit_def>Candida albicans strain SC5314-GTH12 chromosome 7A</Hit_def>
+  <Hit_accession>CP025173</Hit_accession>
+  <Hit_len>948952</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480112</Hsp_hit-from>
+      <Hsp_hit-to>480143</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1078733103|gb|CP017629.1|</Hit_id>
+  <Hit_def>Candida albicans SC5314 chromosome 7 sequence</Hit_def>
+  <Hit_accession>CP017629</Hit_accession>
+  <Hit_len>949511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480266</Hsp_hit-from>
+      <Hsp_hit-to>480297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|76573447|dbj|AP006852.1|</Hit_id>
+  <Hit_def>Candida albicans genomic DNA, chromosome 7, complete sequence</Hit_def>
+  <Hit_accession>AP006852</Hit_accession>
+  <Hit_len>949626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4342</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>0.254893</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>480275</Hsp_hit-from>
+      <Hsp_hit-to>480306</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AGTATTAAATAACCATCCAATAGATTTAAATC</Hsp_qseq>
+      <Hsp_hseq>AGTATTAAATAACCATCCAATACTTTTAAATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1539176533|emb|LR131989.1|</Hit_id>
+  <Hit_def>Gouania willdenowi genome assembly, chromosome: 24</Hit_def>
+  <Hit_accession>LR131989</Hit_accession>
+  <Hit_len>25951273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>7262857</Hsp_hit-from>
+      <Hsp_hit-to>7262879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TATAATGTATATAATGAATGGGA</Hsp_qseq>
+      <Hsp_hseq>TATAATGTATATAATGAATGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1486618593|gb|CP029458.1|</Hit_id>
+  <Hit_def>Clostridium novyi strain 150557 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP029458</Hit_accession>
+  <Hit_len>2296219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1427912</Hsp_hit-from>
+      <Hsp_hit-to>1427934</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>AATGGAAAAGATAAAAATAAGTA</Hsp_qseq>
+      <Hsp_hseq>AATGGAAAAGATAAAAATAAGTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1050598334|ref|XR_001867888.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum uncharacterized LOC108461895 (LOC108461895), ncRNA</Hit_def>
+  <Hit_accession>XR_001867888</Hit_accession>
+  <Hit_len>1520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>453</Hsp_query-from>
+      <Hsp_query-to>475</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATTTATTAAGAATTATACATTAT</Hsp_qseq>
+      <Hsp_hseq>ATTTATTAAGAATTATACATTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1042907684|emb|LT594796.1|</Hit_id>
+  <Hit_def>Theobroma cacao genome assembly, chromosome: IX</Hit_def>
+  <Hit_accession>LT594796</Hit_accession>
+  <Hit_len>38630433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>12987349</Hsp_hit-from>
+      <Hsp_hit-to>12987371</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TTCAATGGAAAAGATAAAAATAA</Hsp_qseq>
+      <Hsp_hseq>TTCAATGGAAAAGATAAAAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|965661712|dbj|AP015035.1|</Hit_id>
+  <Hit_def>Vigna angularis var. angularis DNA, chromosome 2, almost complete sequence, cultivar: Shumari</Hit_def>
+  <Hit_accession>AP015035</Hit_accession>
+  <Hit_len>45515668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>11005453</Hsp_hit-from>
+      <Hsp_hit-to>11005475</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>AAGATAAAAATAAGTATCTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGATAAAAATAAGTATCTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|410176034|gb|AC253919.1|</Hit_id>
+  <Hit_def>Aquilegia coerulea clone COL02-M05, complete sequence</Hit_def>
+  <Hit_accession>AC253919</Hit_accession>
+  <Hit_len>166127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>157897</Hsp_hit-from>
+      <Hsp_hit-to>157919</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>AAGATAAAAATAAGTATCTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGATAAAAATAAGTATCTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|119675784|gb|AC192980.3|</Hit_id>
+  <Hit_def>Pan troglodytes BAC clone CH251-597A1 from chromosome x, complete sequence</Hit_def>
+  <Hit_accession>AC192980</Hit_accession>
+  <Hit_len>190099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>63286</Hsp_hit-from>
+      <Hsp_hit-to>63312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ATGGGAAAAATTTTTCAATGGAAAAGA</Hsp_qseq>
+      <Hsp_hseq>ATGGGAAAAAATTTTCAATGGAAAAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|936230294|gb|KT337338.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate TC_B5 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337338</Hit_accession>
+  <Hit_len>16479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2884</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|936230280|gb|KT337337.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate Tag_H00517 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337337</Hit_accession>
+  <Hit_len>16479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2884</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|936230266|gb|KT337336.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate Tag_H00505 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337336</Hit_accession>
+  <Hit_len>16479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2884</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|936230252|gb|KT337335.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate Tag_221164 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337335</Hit_accession>
+  <Hit_len>16479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2884</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|936230224|gb|KT337333.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate SNAGS_79 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337333</Hit_accession>
+  <Hit_len>16479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2884</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|936230168|gb|KT337329.1|</Hit_id>
+  <Hit_def>Maccullochella macquariensis isolate MCC0040 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KT337329</Hit_accession>
+  <Hit_len>16480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2907</Hsp_hit-from>
+      <Hsp_hit-to>2885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATAATGTATATAATGAATGGGAA</Hsp_qseq>
+      <Hsp_hseq>ATAATGTATATAATGAATGGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|16974033|emb|AL627404.3|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP13-28N22 on chromosome X, complete sequence</Hit_def>
+  <Hit_accession>AL627404</Hit_accession>
+  <Hit_len>35818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.4366</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>1.01795</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>17618</Hsp_hit-from>
+      <Hsp_hit-to>17592</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ATGGGAAAAATTTTTCAATGGAAAAGA</Hsp_qseq>
+      <Hsp_hseq>ATGGGAAAAAATTTTCAATGGAAAAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1546439274|gb|CP034675.1|</Hit_id>
+  <Hit_def>Cellulosilyticum sp. WCF-2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP034675</Hit_accession>
+  <Hit_len>4779774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>2467075</Hsp_hit-from>
+      <Hsp_hit-to>2467096</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TTTTTCAATGGAAAAGATAAAA</Hsp_qseq>
+      <Hsp_hseq>TTTTTCAATGGAAAAGATAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1539176561|emb|LR132017.1|</Hit_id>
+  <Hit_def>Betta splendens genome assembly, chromosome: 12</Hit_def>
+  <Hit_accession>LR132017</Hit_accession>
+  <Hit_len>14656476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>243</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>4866169</Hsp_hit-from>
+      <Hsp_hit-to>4866190</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTGCAGCTATTAGTGACATTAA</Hsp_qseq>
+      <Hsp_hseq>GTGCAGCTATTAGTGACATTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1535683952|gb|MH748034.1|</Hit_id>
+  <Hit_def>Sophora flavescens chloroplast, complete genome</Hit_def>
+  <Hit_accession>MH748034</Hit_accession>
+  <Hit_len>154378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>118746</Hsp_hit-from>
+      <Hsp_hit-to>118771</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>AACCATCCAATAGATTTAAATCTTAT</Hsp_qseq>
+      <Hsp_hseq>AACCATCCGATAGATTTAAATCTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1419235479|gb|CP030753.1|</Hit_id>
+  <Hit_def>Actinobacillus pleuropneumoniae strain S4074 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP030753</Hit_accession>
+  <Hit_len>2318657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1138689</Hsp_hit-from>
+      <Hsp_hit-to>1138710</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TAATACCGAAAAACTTTACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATACCGAAAAACTTTACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1386545387|gb|CP029003.1|</Hit_id>
+  <Hit_def>Actinobacillus pleuropneumoniae serovar 1 str. 4074 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP029003</Hit_accession>
+  <Hit_len>2318649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1138682</Hsp_hit-from>
+      <Hsp_hit-to>1138703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TAATACCGAAAAACTTTACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATACCGAAAAACTTTACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1370969124|emb|LT969422.1|</Hit_id>
+  <Hit_def>Plasmodium sp. gorilla clade G2 genome assembly, chromosome: 13</Hit_def>
+  <Hit_accession>LT969422</Hit_accession>
+  <Hit_len>2653825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>1416121</Hsp_hit-from>
+      <Hsp_hit-to>1416146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAATGTATATAATGAATGGGAAAAAT</Hsp_qseq>
+      <Hsp_hseq>TAATGTATATAATAAATGGGAAAAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1232999379|gb|CP022715.1|</Hit_id>
+  <Hit_def>Actinobacillus pleuropneumoniae strain KL 16, complete genome</Hit_def>
+  <Hit_accession>CP022715</Hit_accession>
+  <Hit_len>2357806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>2295739</Hsp_hit-from>
+      <Hsp_hit-to>2295760</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TAATACCGAAAAACTTTACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATACCGAAAAACTTTACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|840486300|emb|LK065559.1|</Hit_id>
+  <Hit_def>Apteryx australis mantelli genome assembly AptMant0, scaffold scaffold110</Hit_def>
+  <Hit_accession>LK065559</Hit_accession>
+  <Hit_len>12074882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>11128512</Hsp_hit-from>
+      <Hsp_hit-to>11128533</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TTTCAATGGAAAAGATAAAAAT</Hsp_qseq>
+      <Hsp_hseq>TTTCAATGGAAAAGATAAAAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|731182409|dbj|AB798838.1|</Hit_id>
+  <Hit_def>Uncultured archaeon gene for 16S rRNA, partial sequence, clone: smkt_MBGB_01_0987</Hit_def>
+  <Hit_accession>AB798838</Hit_accession>
+  <Hit_len>1420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>GGAAAAATTTTTCAATGGAAAAGATAAAAA</Hsp_qseq>
+      <Hsp_hseq>GGAAAAGTTTTTCAATGGAAAGGATAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|378573745|gb|CP002831.1|</Hit_id>
+  <Hit_def>Saprospira grandis str. Lewin, complete genome</Hit_def>
+  <Hit_accession>CP002831</Hit_accession>
+  <Hit_len>4345237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>4292287</Hsp_hit-from>
+      <Hsp_hit-to>4292308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TCCCTTAGATGGTACAGAAGAA</Hsp_qseq>
+      <Hsp_hseq>TCCCTTAGATGGTACAGAAGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|295831662|gb|CP001758.1|</Hit_id>
+  <Hit_def>Leuconostoc kimchii IMSNU 11154, complete genome</Hit_def>
+  <Hit_accession>CP001758</Hit_accession>
+  <Hit_len>2002721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>327692</Hsp_hit-from>
+      <Hsp_hit-to>327713</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>AAAATTTTTCAATGGAAAAGAT</Hsp_qseq>
+      <Hsp_hseq>AAAATTTTTCAATGGAAAAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|189914400|gb|CP001091.1|</Hit_id>
+  <Hit_def>Actinobacillus pleuropneumoniae serovar 7 str. AP76, complete genome</Hit_def>
+  <Hit_accession>CP001091</Hit_accession>
+  <Hit_len>2331981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1128288</Hsp_hit-from>
+      <Hsp_hit-to>1128309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TAATACCGAAAAACTTTACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATACCGAAAAACTTTACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|13169570|emb|AL512323.8|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP13-445B20 on chromosome 6, complete sequence</Hit_def>
+  <Hit_accession>AL512323</Hit_accession>
+  <Hit_len>205043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>131205</Hsp_hit-from>
+      <Hsp_hit-to>131238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AATTTTTCAATGGAAAAGATAAAAATAAGTATCT</Hsp_qseq>
+      <Hsp_hseq>AATTTTTCAAGGGAAAAGATAAAAAATAGTATCT</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1469184371|ref|XM_026265937.1|</Hit_id>
+  <Hit_def>PREDICTED: Carassius auratus DNA damage-inducible transcript 3 protein-like (LOC113102985), mRNA</Hit_def>
+  <Hit_accession>XM_026265937</Hit_accession>
+  <Hit_len>2667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1507</Hsp_hit-from>
+      <Hsp_hit-to>1486</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TTTAAATCTTATTTATAATGTA</Hsp_qseq>
+      <Hsp_hseq>TTTAAATCTTATTTATAATGTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1331402674|gb|CP024847.1|</Hit_id>
+  <Hit_def>Neisseriaceae bacterium DSM 100970 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP024847</Hit_accession>
+  <Hit_len>2820660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>899919</Hsp_hit-from>
+      <Hsp_hit-to>899898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GACATTAAAGAATTTTATCACT</Hsp_qseq>
+      <Hsp_hseq>GACATTAAAGAATTTTATCACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1219791824|gb|CP022121.1|</Hit_id>
+  <Hit_def>Dehalobacterium formicoaceticum strain DMC, complete genome</Hit_def>
+  <Hit_accession>CP022121</Hit_accession>
+  <Hit_len>3766545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>343</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1406341</Hsp_hit-from>
+      <Hsp_hit-to>1406320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TGTTTCCCTTACTTCTACTTTA</Hsp_qseq>
+      <Hsp_hseq>TGTTTCCCTTACTTCTACTTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|686207191|dbj|AP014521.1|</Hit_id>
+  <Hit_def>Candidatus Tachikawaea gelatinosa DNA, complete genome</Hit_def>
+  <Hit_accession>AP014521</Hit_accession>
+  <Hit_len>708439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>690188</Hsp_hit-from>
+      <Hsp_hit-to>690167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>AAAAATTTTTCAATGGAAAAGA</Hsp_qseq>
+      <Hsp_hseq>AAAAATTTTTCAATGGAAAAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|405104673|emb|FO203503.1|</Hit_id>
+  <Hit_def>Desulfobacula toluolica Tol2 complete genome</Hit_def>
+  <Hit_accession>FO203503</Hit_accession>
+  <Hit_len>5197905</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1090065</Hsp_hit-from>
+      <Hsp_hit-to>1090044</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GAATGGGAAAAATTTTTCAATG</Hsp_qseq>
+      <Hsp_hseq>GAATGGGAAAAATTTTTCAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|338851854|gb|CP002898.1|</Hit_id>
+  <Hit_def>Leuconostoc sp. C2, complete genome</Hit_def>
+  <Hit_accession>CP002898</Hit_accession>
+  <Hit_len>1877273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>207424</Hsp_hit-from>
+      <Hsp_hit-to>207403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>AAAATTTTTCAATGGAAAAGAT</Hsp_qseq>
+      <Hsp_hseq>AAAATTTTTCAATGGAAAAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|194395909|gb|EU789560.1|</Hit_id>
+  <Hit_def>Actinobacillus pleuropneumoniae strain WF83 PurH-like (purH) gene, partial sequence</Hit_def>
+  <Hit_accession>EU789560</Hit_accession>
+  <Hit_len>2186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.4389</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>4.06529</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>486</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TAATACCGAAAAACTTTACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATACCGAAAAACTTTACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>50392116</Statistics_db-num>
+      <Statistics_db-len>197451948575</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.71225246629635</Statistics_kappa>
+      <Statistics_lambda>1.38469751776715</Statistics_lambda>
+      <Statistics_entropy>1.31570651465914</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
