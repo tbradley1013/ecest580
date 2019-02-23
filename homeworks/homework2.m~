@@ -95,12 +95,7 @@ title("Sequence Logo Plot")
 xlabel("Nucleotide position")
 
 rownames = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', ...
-    '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'};
-array2table(b_table, "VariableNames", {'A', 'C', 'G', 'T'}, "RowNames", rownames)
+    '11', '12', '13', '14', 15'
+array2table(b_table, "VariableNames", {'A', 'C', 'G', 'T'}, "RowNames", {1:20})
 
-% The plot created above is fairly similar to the one created using the
-% online tool. Bases 3, 4, 5 and 16, 17, 18 are the highest groupings 
-% of R values in both of the plots. The e(n) value in the online tool 
-% (set to zero here) likely corrects for potential bias that may be
-% introduced when only a small amount of data is used to determine the
-% entropy in a sequence alignment.
+% The plot created above is fairly similar to 
