@@ -52,12 +52,17 @@ def trimer_count(seq, aa):
     :return:
     """
     loop_len = len(seq)-2
+    # creating a vector of length 64 with initial counts at zero
     count_vec = [0]*64
+    # for loop to add counts to the count_vec for each trimer that is present
+    # based on the hashtag function value
     for i in range(loop_len):
         trimer = seq[i:i+3]
         idx = hashtag(trimer)
         count_vec[idx] = count_vec[idx] + 1
 
+    # creating the prit statement showing all the trimers and their counts in the
+    # input sequence
     n_print = 0
     for i in range(len(count_vec)):
         if count_vec[i] > 0:
