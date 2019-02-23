@@ -37,10 +37,11 @@ hashtag("TTT") # last trimer - equals 63
 # Question 2
 # create all possible nucleotides
 import itertools as it
+import sys
 
 #defining alphabet of nucleotides
 alphabet = ["A", "C", "G", "T"]
-# creating a vector of all possible codons
+# creating a vector of all possible codons to be able to print output statement
 aa = [''.join(i) for i in it.product(alphabet, repeat = 3)]
 
 def trimer_count(seq, aa):
@@ -57,10 +58,14 @@ def trimer_count(seq, aa):
         idx = hashtag(trimer)
         count_vec[idx] = count_vec[idx] + 1
 
-
+    n_print = 0
     for i in range(len(count_vec)):
         if count_vec[i] > 0:
-            print aa[i] + ": " + str(count_vec[i])
+            n_print = n_print + 1
+            if n_print == 1:
+                sys.stdout.write(aa[i] + ": " + str(count_vec[i]))
+            else:
+                sys.stdout.write(", " + aa[i] + ": " + str(count_vec[i]))
 
     return None
 
