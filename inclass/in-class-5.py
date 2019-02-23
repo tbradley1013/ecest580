@@ -71,8 +71,4 @@ def trimer_count(seq, aa):
 
 test_seq = "ATTATTGC"
 trimer_count(test_seq, aa)
-# ATT: 2
-# TAT: 1
-# TGC: 1
-# TTA: 1
-# TTG: 1
+# ATT: 2, TAT: 1, TGC: 1, TTA: 1, TTG: 1
