@@ -1,4 +1,5 @@
 # In class 5 Question 1
+# Tyler Bradley
 def hashtag(aa):
     """
     This function takes a nucleotide trimer and returns it numeric value 0-63
