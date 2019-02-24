@@ -8,10 +8,10 @@ tree_seqs = struct('Header', value1, 'Sequence', value2);
 
 % original tree
 seq_dist = seqpdist(tree_seqs);
-tree = seqlinkage(seq_dist, 'average', tree_seqs);
-view(tree)
+tree_orig = seqlinkage(seq_dist, 'average', tree_seqs);
+view(tree_orig)
 
-
+% Create empty vectors for output and data length
 num_boot = 5;
 seq_len = length(tree_seqs(1).Sequence);
 num_seqs = length(tree_seqs);
@@ -19,7 +19,7 @@ boots = cell(num_boot, 1);
 boots_dist = cell(num_boot, 1);
 boots_trees = cell(num_boot, 1);
 
-
+% Create the bootstrap trees
 for i = 1:num_boot
     idx = randsample(seq_len, seq_len, 'true');
     for j = 1:num_seqs
@@ -33,7 +33,55 @@ for i = 1:num_boot
     boots_trees{i} = boot_tree;
 end
 
+% Find the pointers and the leaves that each node is an ancestor of
+% for the original tree
+for i = 1:num_seqs-1
+    node = i + num_seqs;
+    sub_tree = subtree(tree_orig, node);
+    orig_pointers{i} = getcanonical(sub_tree);
+    orig_species{i} = sort(get(sub_tree, "LeafNames"));
+end
 
+% Find the pointers and the leaves that each node is an ancestor of 
+% for each of the boostrap trees
+for j = 1:num_boot
+    for i = 1:num_seqs-1
+      node = i + num_seqs;
+      sub_tree = subtree(boots_trees{j}, node);
+      boot_pointers{i,j} = getcanonical(sub_tree);
+      boot_species{i, j} = sort(get(sub_tree, "LeafNames"));
+    end
+    
+end
+
+% Finding the count of bootstrap trees that match the original tree
+% for both the decesdents of a given node and the species inside of it
+match_count = repelem(0, num_seqs-1);
+for i = 1:num_seqs-1
+    for j = 1:num_boot
+       if isequal(orig_pointers{i},boot_pointers{i,j})
+            if isequal(orig_species{i},boot_species{i,j})
+                match_count(i) = match_count(i) + 1;
+            end
+        end
+    end
+end
+
+% Calculate the confidence for each of the nodes
+node_conf = match_count/num_boot;
+
+% extract the major structure of the original tree
+[ptrs,dist,names] = get(tree_orig,'POINTERS','DISTANCES','NODENAMES');
+
+% Add the confidence for each branch to the tree names
+for i = 1:num_seqs -1  % for every branch
+    branch_ptr = i + num_seqs;
+    names{branch_ptr} = [names{branch_ptr} ', confidence: ' num2str(100*node_conf(i)) ' %'];
+end
+
+% create a new phylogenetic tree and plot it with branch confidences
+conf_tree = phytree(ptrs,dist,names);
+plot(conf_tree, "BranchLabels", true)
 
 %% Question 3
 % Go to a database of E. Coli binding sites: http://arep.med.harvard.edu/ecoli_matrices/.
@@ -95,7 +143,14 @@ title("Sequence Logo Plot")
 xlabel("Nucleotide position")
 
 rownames = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', ...
-    '11', '12', '13', '14', 15'
-array2table(b_table, "VariableNames", {'A', 'C', 'G', 'T'}, "RowNames", {1:20})
+    '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'};
+array2table(b_table, "VariableNames", {'A', 'C', 'G', 'T'}, "RowNames", rownames)
 
-% The plot created above is fairly similar to 
+% The plot created above is fairly similar to the one created using the
+% online tool. Bases 3, 4, 5 and 16, 17, 18 are the highest groupings 
+% of R values in both of the plots. The e(n) value in the online tool 
+% (set to zero here) likely corrects for potential bias that may be
+% introduced when only a small amount of data is used to determine the
+% entropy in a sequence alignment.
+
+% See online version on next page
