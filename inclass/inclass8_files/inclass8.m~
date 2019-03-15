@@ -1,0 +1,94 @@
+%% In Class 8 - Tyler Bradley
+clc;clear
+
+% read in fasta files
+limno = fastaread('Limnohabitans.fasta');
+thermo = fastaread('s_thermotolerans.fasta');
+vulcan = fastaread('t_vulcanus_rbcl.fasta');
+unk = fastaread('uncultured.fasta');
+
+aa = ['AAA'; 'AAC'; 'AAG'; 'AAT'; ...
+    'ACA'; 'ACC'; 'ACG'; 'ACT'; ...
+    'AGA'; 'AGC'; 'AGG'; 'AGT'; ...
+    'ATA'; 'ATC'; 'ATG'; 'ATT'; ...
+    'CAA'; 'CAC'; 'CAG'; 'CAT'; ...
+    'CCA'; 'CCC'; 'CCG'; 'CCT'; ...
+    'CGA'; 'CGC'; 'CGG'; 'CGT'; ...
+    'CTA'; 'CTC'; 'CTG'; 'CTT'; ...
+    'GAA'; 'GAC'; 'GAG'; 'GAT'; ...
+    'GCA'; 'GCC'; 'GCG'; 'GCT'; ...
+    'GGA'; 'GGC'; 'GGG'; 'GGT'; ...
+    'GTA'; 'GTC'; 'GTG'; 'GTT'; ...
+    'TAA'; 'TAC'; 'TAG'; 'TAT'; ...
+    'TCA'; 'TCC'; 'TCG'; 'TCT'; ...
+    'TGA'; 'TGC'; 'TGG'; 'TGT'; ...
+    'TTA'; 'TTC'; 'TTG'; 'TTT'];
+
+limno_count = trimer_count(limno.Sequence);
+thermo_count = trimer_count(thermo.Sequence);
+vulcan_count = trimer_count(vulcan.Sequence);
+unk_count = trimer_count(unk.Sequence);
+
+n_feat = 4^3;
+
+% thermo should be highest
+
+limno_probs = tri_prob(limno.Sequence);
+thermo_probs = tri_prob(thermo.Sequence);
+vulcan_probs = tri_prob(vulcan.Sequence);
+
+probs_mat = [limno_probs, thermo_probs, vulcan_probs];
+
+likeli = zeros(3,1)
+for i = 1:3
+    n_probs = length(unk.Sequence)-3+1;
+    probs_unk = zeros(n_probs,1);
+    
+    
+end
+
+function output = tri_prob(seq)
+  len_seq = length(seq)-3+1;
+  tri_count = trimer_count(seq);
+  len_tri = length(tri_count);
+  output = zeros(len_tri, 1);
+  n_feat = 4^3;
+  for i = 1:len_tri
+      output(i) = log((tri_count(i)+1)/(len_seq+n_feat));
+  end
+
+
+end
+
+
+
+function output = trimer_count(seq)
+  ncounts = nmercount(seq,3);
+  output = zeros(length(ncounts),1);
+  for i = 1:length(ncounts)
+      hash_num = hashtag(ncounts{i,1});
+      output(hash_num) = ncounts{i,2};
+  end
+
+end
+
+
+function output = hashtag(seq)
+  temp_vec = zeros(3, 1);
+  
+  idx = 1;
+  for i = 1:length(seq)
+      if seq(i) == 'A'
+         temp_vec(idx) = 0;
+      elseif seq(i) == "C"
+         temp_vec(idx) = 1;
+      elseif seq(i) == 'G'
+          temp_vec(idx) = 2;
+      else
+          temp_vec(idx) = 3;
+      end
+      idx = idx+1;
+  end
+  
+  output = temp_vec(1)*(4^2)+temp_vec(2)*(4)+temp_vec(3)+1;
+end
